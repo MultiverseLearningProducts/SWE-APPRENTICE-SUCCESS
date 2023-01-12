@@ -4,7 +4,10 @@
   "description": "Elevating Software Engineering Skills through Additional Practice and Assistance",
   "main": "index.js",
   "scripts": {
-    "test": "node --experimental-vm-modules ./node_modules/.bin/jest --watch-all"
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest --watch-all",
+    "test:1-": "node --experimental-vm-modules ./node_modules/.bin/jest 1- --watch-all",
+    "test:2-": "node --experimental-vm-modules ./node_modules/.bin/jest 2- --watch-all",
+    "test:3-": "node --experimental-vm-modules ./node_modules/.bin/jest 3- --watch-all"
   },
   "repository": {
     "type": "git",
