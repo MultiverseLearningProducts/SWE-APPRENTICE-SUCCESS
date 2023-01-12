@@ -12,7 +12,7 @@
     "test-all": {
       "name": "test all",
       "command": "npm run test",
-      "runAtStart": true
+      "runAtStart": false
     },
     "test:1-": {
       "name": "test level 1",
