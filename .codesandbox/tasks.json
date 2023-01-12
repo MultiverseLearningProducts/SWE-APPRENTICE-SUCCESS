@@ -4,18 +4,29 @@
     {
       "name": "Install Dependencies",
       "command": "npm install"
-    },
-    {
-      "name": "Run Tests",
-      "command": "npm run test:1-"
     }
   ],
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
     "test": {
-      "name": "test",
+      "name": "all tests",
       "command": "npm run test",
+      "runAtStart": true
+    },
+    "test:1-": {
+      "name": "test level 1",
+      "command": "npm run test:1-",
+      "runAtStart": true
+    },
+    "test:2-": {
+      "name": "test level 2",
+      "command": "npm run test:2-",
+      "runAtStart": true
+    },
+    "test:3-": {
+      "name": "test level 3",
+      "command": "npm run test:3-",
       "runAtStart": true
     }
   }
