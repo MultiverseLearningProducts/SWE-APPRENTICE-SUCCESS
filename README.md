@@ -14,3 +14,6 @@ To access the content, navigate to the corresponding weekly topic folder and fin
 Please note that the content provided in this repository is meant to supplement, not replace, the material covered in your SWE apprenticeship curriculum. It is essential that you continue engaging with the material covered in your course.
 
 If you have any questions or feedback, please ask your coach. We hope that this resource helps you achieve success in your SWE course work!
+
+## Running Tests
+There are automated coding challenges in this repository. You may run them locally, but we will not learn how to use git until Week 3. For now, you can edit your code and run the tests in [The CodeSandbox](https://codesandbox.io/p/github/MultiverseLearningProducts/SWE-APPRENTICE-SUCCESS/SWE-APPRENTICE-SUCCESS?file=%2F01%2F1-primers%2Findex.js)
