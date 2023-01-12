@@ -22,12 +22,12 @@
     "test:2-": {
       "name": "test level 2",
       "command": "npm run test:2-",
-      "runAtStart": true
+      "runAtStart": false
     },
     "test:3-": {
       "name": "test level 3",
       "command": "npm run test:3-",
-      "runAtStart": true
+      "runAtStart": false
     }
   }
 }
