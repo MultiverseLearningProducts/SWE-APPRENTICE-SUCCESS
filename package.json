@@ -1,0 +1,19 @@
+{
+  "name": "swe-apprentice-success",
+  "version": "1.0.0",
+  "description": "Elevating Software Engineering Skills through Additional Practice and Assistance",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest --watch-all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MultiverseLearningProducts/SWE-APPRENTICE-SUCCESS.git"
+  },
+  "keywords": [],
+  "author": "Multiverse Learning Products",
+  "dependencies": {
+    "jest": "29.3.1"
+  },
+  "type": "module"
+}
