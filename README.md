@@ -1,4 +1,4 @@
-# SWE-APPRENTICE-SUCCESS
+# SWE Apprentice Success Guide
 Elevating Software Engineering Skills through Additional Practice and Assistance
 
 Welcome to the Apprentice Success Guide for Software Engineering (SWE)!
