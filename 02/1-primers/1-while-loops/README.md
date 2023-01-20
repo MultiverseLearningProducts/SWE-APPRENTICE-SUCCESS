@@ -9,12 +9,14 @@
 
 ![](../../assets/WhileLoops.png)
 
+## `while` Loops Example
+
 For example, the following code:
 
 ```javascript
 let count = 0; // counter variable
 
-while(count < 5){
+while(count < 5){ // run while count is less than 5
     console.log("Current Count: " + count);
     count++; // increment count by 1
 }
@@ -30,7 +32,7 @@ Current Count: 3
 Current Count: 4
 ```
 
-The value 5 is not printed out because when `count = 5` this will result in `count < 5` evaluating to `false`, which stops the `while` loop.
+The value 5 is not printed out because when `count = 5` this will result in `count < 5` to evaluate to `false`, which stops the `while` loop.
 
 ## #checkoutTheDocs 🔍
 - **MDN**: [while Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
