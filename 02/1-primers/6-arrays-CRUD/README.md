@@ -7,7 +7,7 @@
     let myFavFoods = ["Fish and Chips", "Tacos", "Pizza", "Pasta", "Sushi"]
     ```
 
-- Arrays are accessed using index numbers. Array indexes start counting at zero.
+- Arrays are accessed using index numbers which start at zero.
 
 ![Array Syntax](../../assets/Array%20Syntax.png)
 
