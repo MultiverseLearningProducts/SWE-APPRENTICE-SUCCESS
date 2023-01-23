@@ -33,3 +33,6 @@ However, we can manipulate variables that were declared outside of the function.
 
 ## checkoutTheDocs 🔍
 - [MDN: IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE)
+
+## Video Resources 🎥
+- [What is an IIFE?](https://www.youtube.com/watch?v=8GDk8sj0YgQ)
