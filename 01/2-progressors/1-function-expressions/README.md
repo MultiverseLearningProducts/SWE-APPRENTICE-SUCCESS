@@ -24,3 +24,4 @@ Notice that the only difference here is that we "assign a value" to `add`. It's 
 - [MDN: Function Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Function_expressions)
 
 ## Video Resources 🎥
+- [Function Declarations VS Function Expressions in JavaScript](https://www.youtube.com/watch?v=gjLn95skIKE)
