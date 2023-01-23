@@ -36,3 +36,7 @@ function add(a, b) {
 - [MDN: Reference errors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Not_defined)
 - [MDN: Syntax errors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Syntax)
 - [MDN: Type errors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Not_a_function)
+
+## Video Resources 🎥
+- [Errors in JavaScript](https://www.youtube.com/watch?v=O0EHKBi7iXU)
+- [How to read a stack trace in VS Code](https://www.youtube.com/watch?v=9AZReNXoC1E)

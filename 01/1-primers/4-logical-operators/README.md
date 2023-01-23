@@ -18,3 +18,6 @@ console.log(!(age > 20)); // false
 - [MDN: Logical AND (&&)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND)
 - [MDN: Logical OR (||)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR)
 - [MDN: Logical NOT (!)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT)
+
+## Video Resources 🎥
+- [Javascript Lobical Operators](https://www.youtube.com/watch?v=t28EjCGOoIk)

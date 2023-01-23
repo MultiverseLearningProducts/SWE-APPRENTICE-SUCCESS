@@ -23,3 +23,6 @@ sayHello(); // This will print "Hello!" to the console
 ## checkoutTheDocs 🔍
 - [MDN: Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 - [MDN: Function declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)
+
+## Video Resources 🎥
+- [Javascript Functions](https://www.youtube.com/watch?v=N8ap4k_1QEQ)

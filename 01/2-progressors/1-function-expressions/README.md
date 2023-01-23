@@ -22,3 +22,5 @@ Notice that the only difference here is that we "assign a value" to `add`. It's 
 
 ## checkoutTheDocs 🔍
 - [MDN: Function Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Function_expressions)
+
+## Video Resources 🎥

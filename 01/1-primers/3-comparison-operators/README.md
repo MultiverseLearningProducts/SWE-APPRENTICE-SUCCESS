@@ -23,3 +23,6 @@ console.log(age !== 25); // false
 - [MDN: Strict inequality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_inequality)
 - [MDN: Loose equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Loose_equality)
 - [MDN: Loose inequality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Loose_inequality)
+
+## Video Resources 🎥
+- [Javascript Comparison Operators](https://www.youtube.com/watch?v=Re-J9ydyuO8)

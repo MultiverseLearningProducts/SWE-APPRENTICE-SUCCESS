@@ -17,3 +17,6 @@ if (age > 20) {
 
 ## checkoutTheDocs 🔍
 - [MDN: if...else statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+
+## Video Resources 🎥
+- [Conditional Statements](https://www.youtube.com/watch?v=N4V0FZASK60)

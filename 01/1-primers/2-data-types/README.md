@@ -26,3 +26,6 @@ let isStudent = true; // Boolean
   - [MDN: string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
   - [MDN: number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
   - [MDN: boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
+
+## Video Resources 🎥
+- [Primitive Data Types](https://www.youtube.com/watch?v=qw3j0A3DIzQ)

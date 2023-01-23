@@ -16,3 +16,5 @@ console.log(multiply(3, 4)); // 12
 ## checkoutTheDocs 🔍
 - [MDN: Parameters](https://developer.mozilla.org/en-US/docs/Glossary/Parameter)
 - [MDN: Return value](https://developer.mozilla.org/en-US/docs/Glossary/Return_value)
+
+## Video Resources 🎥
