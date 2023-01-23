@@ -4,6 +4,7 @@
   "description": "Elevating Software Engineering Skills through Additional Practice and Assistance",
   "main": "index.js",
   "scripts": {
+    "test:nowatch": "node --experimental-vm-modules ./node_modules/.bin/jest",
     "test": "node --experimental-vm-modules ./node_modules/.bin/jest --watch-all",
     "test:1-": "node --experimental-vm-modules ./node_modules/.bin/jest 1- --watch-all",
     "test:w1": "node --experimental-vm-modules ./node_modules/.bin/jest 01 --watch-all",
