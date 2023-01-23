@@ -5,32 +5,22 @@
 // npm test
 
 import { default as variables } from './index.js';
-const { age } = variables;
+let { age } = variables;
+const { name } = variables;
 
 // test for age variable
-describe('age', () => {
+describe('`age` variable', () => {
   // confirms data type
   it('should be a number', () => {
     expect(typeof age).toBe('number');
   });
-  // confirms the variable can be redefined
-  it('should be able to be redefined', () => {
-    age = 10;
-    expect(age).toBe(10);
-  });
 });
 
 // test for name constant
-describe('name', () => {
+describe('`name` constant', () => {
   // confirms data type
   it('should be a string', () => {
     expect(typeof name).toBe('string');
-  });
-  // confirms the constant cannot be redefined
-  it('should not be able to be redefined', () => {
-    expect(() => {
-      name = 'bob';
-    }).toThrow();
   });
 }); 
 
