@@ -1,4 +1,4 @@
-![MV Logo](../../assets/logo.jpg)
+![MV Logo](../../../logo.jpg)
 
 # Nested Loops
 - You can place a loop inside another loop. This is known as a **nested loop**.

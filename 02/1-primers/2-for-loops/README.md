@@ -1,4 +1,4 @@
-![MV Logo](../../assets/logo.jpg)
+![MV Logo](../../../logo.jpg)
 
 # `for` Loops
 

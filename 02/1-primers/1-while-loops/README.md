@@ -1,4 +1,4 @@
-![MV Logo](/logo.jpg)
+![MV Logo](../../../logo.jpg)
 
 # While Loops
 
