@@ -1,3 +1,4 @@
+![MV Logo](/logo.jpg)
 # Variables and Constants
 
 ## Variable Declaration and Assignment:

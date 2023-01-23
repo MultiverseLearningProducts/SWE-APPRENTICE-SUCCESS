@@ -1,3 +1,4 @@
+![MV Logo](/logo.jpg)
 # Creating Functions with Parameters and Return Values:
 
 - Functions can also take input, known as parameters, and return output, known as return values.

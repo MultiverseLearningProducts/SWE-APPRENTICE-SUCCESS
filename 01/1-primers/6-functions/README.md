@@ -1,3 +1,4 @@
+![MV Logo](/logo.jpg)
 # Declaring and Calling Functions:
 
 - Functions are reusable blocks of code that perform a specific task.

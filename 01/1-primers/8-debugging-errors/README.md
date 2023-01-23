@@ -1,3 +1,4 @@
+![MV Logo](/logo.jpg)
 # Debugging: Types of Errors:
 
 - Debugging is the process of finding and fixing errors in a program.

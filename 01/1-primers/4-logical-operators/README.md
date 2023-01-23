@@ -1,3 +1,4 @@
+![MV Logo](/logo.jpg)
 # Logical Operators:
 
 Logical operators are used to combine two or more comparison operators.

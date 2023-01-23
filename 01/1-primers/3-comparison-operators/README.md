@@ -1,3 +1,4 @@
+![MV Logo](/logo.jpg)
 # Comparison Operators:
 
 Comparison operators are used to compare two values and return a Boolean value (true or false).
