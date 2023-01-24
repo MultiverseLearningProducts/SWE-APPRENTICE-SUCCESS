@@ -9,10 +9,10 @@ describe('happy', () => {
   it('is happy only if activity is `dancing` or `swimming`', () => {
     // this test is intentionally harder to read; otherwise the test may give away the answer!
     let happyValues = {
-      'swimming': 'happy',
-      'dancing': 'happy',
-      'running 10 miles in the rain': 'sad',
-      'shoveling snow': 'sad',
+      'swimming': true,
+      'dancing': true,
+      'running 10 miles in the rain': false,
+      'shoveling snow': false,
     }
 
     expect(happy).toEqual(happyValues[activity]);
