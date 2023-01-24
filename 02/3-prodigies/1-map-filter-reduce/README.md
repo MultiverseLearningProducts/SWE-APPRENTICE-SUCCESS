@@ -66,9 +66,11 @@ Often `reduce()` is used on an array of numbers, but it also can be used to coun
 var pets = ["dog", "chicken", "cat", "dog", "chicken", "chicken", "rabbit"];
 
 var petCounts = pets.reduce(function(obj, pet){
+    // If the item is not in the object, add with an initial value of 1
     if (!obj[pet]) {
         obj[pet] = 1;
     } else {
+        // If the item is in the object, increment the value by 1.
         obj[pet]++;
     }
     return obj;
