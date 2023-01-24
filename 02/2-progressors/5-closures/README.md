@@ -1,3 +1,5 @@
+![MV Logo](../../../logo.jpg)
+
 #  Closures
 
 A closure is a function that has access to variables in its parent scope, even after the parent function has returned.

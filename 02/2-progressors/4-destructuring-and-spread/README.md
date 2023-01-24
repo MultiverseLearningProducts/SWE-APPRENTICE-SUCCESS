@@ -1,3 +1,5 @@
+![MV Logo](../../../logo.jpg)
+
 # Destructuring and the Spread Operator
 
 Suppose we have the following array of foods

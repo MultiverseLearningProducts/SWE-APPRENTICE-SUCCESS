@@ -1,3 +1,5 @@
+![MV Logo](../../../logo.jpg)
+
 # Recursion
 - Recursion is when a function must call itself in order to resolve a solution.
 - There are two essential parts to any recursive call:
