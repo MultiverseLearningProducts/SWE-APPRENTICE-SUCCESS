@@ -5,7 +5,7 @@
 // Remember, it is a constant, so it should not be able to be redefined.
 
 
-// do not edit below this line
+// DO NOT EDIT BELOW
 export default {
   age,
   name,

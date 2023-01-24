@@ -26,3 +26,6 @@ console.log(age !== 25); // false
 
 ## Video Resources 🎥
 - [Javascript Comparison Operators](https://www.youtube.com/watch?v=Re-J9ydyuO8)
+
+## **Note on Exercises**
+- Exercises are not included for this topic. All exercises for comparison and logical operators are in the [Conditionals](../5-conditionals/README.md) section.

@@ -21,3 +21,6 @@ console.log(!(age > 20)); // false
 
 ## Video Resources 🎥
 - [Javascript Lobical Operators](https://www.youtube.com/watch?v=t28EjCGOoIk)
+
+## **Note on Exercises**
+- Exercises are not included for this topic. All exercises for comparison and logical operators are in the [Conditionals](../5-conditionals/README.md) section.

@@ -10,7 +10,7 @@
 // 5. Declare a variable named isCool and assign it the value of `true` or `false`. But I'm sure it will be `true`!
 
 
-// do not edit below this line
+// DO NOT EDIT BELOW
 export default { 
   favoriteVegetable,
   livingDinosaur,
