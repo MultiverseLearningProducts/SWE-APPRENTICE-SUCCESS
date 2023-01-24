@@ -10,6 +10,7 @@ sumToN(-2) // returns 0;
 
 
 
+
 // 2. Create a function called batman that accepts a number, n, as an argument. It should add n number of Na to the before string "Batman!" Return just "Batman!" (no space) if n is less than 1
 /*
 Example:
