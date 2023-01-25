@@ -39,12 +39,3 @@ describe("incrementSum tests", () => {
         expect(incrementSum()).toBe(3)
     });
 })
-
-/*
-Example
-incrementSum()
-incrementSum()
-incrementSum()
-console.log(currentSum) // Outputs the value 3
-
-*/
