@@ -53,6 +53,6 @@ describe("addEvenOnly", () => {
     });
 
     it('returns 30 for a n value of 10', () => {
-        expect(addEvenOnly(10)).toBe(6);
+        expect(addEvenOnly(10)).toBe(30);
     })
 })
