@@ -25,7 +25,7 @@ For example, if we have an array of fruits and we want to store the first two fr
 
 ```js
 const arr = ["🍇", "🍈", "🍉", "🍊", "🍋", "🍌"];
-const [food1, food2, ...rest];
+const [food1, food2, ...rest] = arr;;
 console.log(rest); // ["🍉", "🍊", "🍋", "🍌"]
 ```
 

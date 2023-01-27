@@ -66,7 +66,7 @@ The spread operator can also be combined with destructuring:
 
 ```javascript
 const arr = ["🍇", "🍈", "🍉", "🍊", "🍋", "🍌"];
-const [food1, food2, ...rest];
+const [food1, food2, ...rest] = arr;
 console.log(rest); // ["🍉", "🍊", "🍋", "🍌"]
 ```
 
