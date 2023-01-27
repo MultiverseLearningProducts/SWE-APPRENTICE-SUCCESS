@@ -101,7 +101,27 @@ const students = [
 
 let highPerformers;
 
+// 12. A 2D array of letters has been stored in the variable values. Update the counts variable with an object whose property names are the values from the arrays and their value is the number of their occurrences. HINT: Take a look at .flat() method!
+/*
+Expected Output:
+{
+    a: 1,
+    b: 1,
+    c: 2,
+    d: 2,
+    f: 2,
+    g: 1,
+}
+*/
 
+
+const values = [
+  ["a", "b", "c"],
+  ["c", "d", "f"],
+  ["d", "f", "g"],
+];
+
+let counts;
 
 
 // DO NOT EDIT BELOW THIS LINE
@@ -117,5 +137,6 @@ export default {
     story,
     oldPeople,
     nicknames,
-    highPerformers
+    highPerformers,
+    counts
 };

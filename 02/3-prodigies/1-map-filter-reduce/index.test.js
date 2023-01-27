@@ -12,7 +12,8 @@ const {
     story,
     oldPeople,
     nicknames,
-    highPerformers
+    highPerformers,
+    counts
 } = variables;
 
 describe("doubles tests", () => {
@@ -132,5 +133,15 @@ describe("highPerformers tests", () => {
 
     test("highPerformers has values only student(s) with averages above 90", () => {
         expect(highPerformers[0].name === "Charlie" || highPerformers[0].name === "David").toEqual(true)
+    })
+})
+
+describe("counts tests", () => {
+    test("counts is an objects", () => {
+        expect(typeof counts).toEqual('object');
+    })
+
+    test("counts contains the correct values", () => {
+        expect(counts).toEqual({ a: 1, b: 1, c: 2, d: 2, f: 2, g: 1 })
     })
 })
