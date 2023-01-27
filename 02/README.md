@@ -19,5 +19,5 @@
   - [Closures](./2-progressors/5-closures/README.md)
   
 ## [Level 3 - Prodigies](./3-prodigies/README.md)
-  - [map/filter/reduce](./3-prodigies/1-map-filter-reduce/README.md)
-  - [spread, rest operators](./3-prodigies/2-spread-rest-operators/README.md)
+  - [spread, rest operators](./3-prodigies/1-spread-rest-operators/README.md)
+  - [map/filter/reduce](./3-prodigies/2-map-filter-reduce/README.md)
