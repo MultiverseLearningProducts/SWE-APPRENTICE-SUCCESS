@@ -14,6 +14,17 @@
 | `clear` | Clears the console |
 | Up and Down arrow (on keyboard) | Goes back and forth in your command line history |
 
+## Arguments
+Like passing arguments to functions, you can pass arguments to commands on the command line. Here are a few basic ones:
+
+| Command | Action |
+| ------- | ------ |
+| `.` | The current directory |
+| `./something` | The something file/directory (in relation to where I am) |
+| `..` | The parent directory to my current directory (one folder up) |
+| `~` | The home directory |
+| `/` | The root directory (usually different from `~`) |
+
 ## Command Line Example
 
 Suppose we have the following file structure on our machine
