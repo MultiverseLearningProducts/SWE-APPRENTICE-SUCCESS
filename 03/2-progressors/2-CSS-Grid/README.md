@@ -61,7 +61,31 @@ Now that we have our columns, we want the second and third row to be the largest
 
 ### `grid-column` and `grid-row`
 
-The previous properties sets up the grid container. However, we also want to be able to define how much space grid items can take up. `grid-column` and `grid-row` can be used to style 
+The previous properties sets up the grid container. However, we also want to be able to define how much space grid items can take up. `grid-column` and `grid-row` can be used to define how much space each grid item should take up.
+
+We want the first "Ruby" element to take up the entire first row. We can achieve this by styling this `div` with `grid-column`.
+
+```css
+#ruby {
+    grid-column: span 3;
+}
+```
+
+The `span 3` will cause the ruby element to now span across 3 columns.
+
+![gridColumn Example](../../assets/gridColumn.png)
+
+Now, we want the python element to take up two rows. We can style the python `div` with `grid-row`:
+
+```css
+#python {
+    grid-row: span 2;
+}
+```
+
+`span 2` will cause the python element to now span across 2 rows.
+
+![grid-row Example](../../assets/gridRow.png)
 
 ## #checkoutTheDocs 🔍
 - **CSS Tricks**: [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
