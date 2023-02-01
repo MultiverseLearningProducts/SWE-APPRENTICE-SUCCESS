@@ -71,6 +71,10 @@ div {
 
 All of the child `p` elements will be styled purple because they inherited this color from the parent `div` element.
 
+## Try It Out! 💻
+1. Navigate back to [CSS Diner](https://flukeout.github.io/)
+2. Try to complete all the levels!
+
 ## #checkoutTheDocs 🔍
 - **MDN**: [Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
 - **MDN**: [Cascade and Source Order](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
