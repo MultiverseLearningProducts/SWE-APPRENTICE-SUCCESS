@@ -31,7 +31,8 @@ body {
 This now will color the `body` yellow on screens that are ***larger*** than 600px and will color the `body` lightblue on screens smaller than 600px. 
 
 ## Try It Out 💻
-
+1. Navigate to [Free Code Camp's Responsive Piano](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-responsive-web-design-by-building-a-piano/step-1).
+2. Build a responsive piano that is styled differently based on the screen size.
 
 ## #checkoutTheDocs 🔍
 - **W3Schools**: [CSS @media Rule](https://www.w3schools.com/cssref/css3_pr_mediaquery.php)
