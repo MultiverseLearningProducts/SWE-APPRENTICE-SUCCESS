@@ -57,6 +57,10 @@ A few things to note:
 - A CSS ruleset can have many property/value pairs, but each property and value **MUST** be separated by a `:` and each property/value pair **MUST** be separated by a `;`.
 - There are hundreds of CSS properties, so make sure to utilize the documentation when deciding on different styles.
 
+## Try It Out 💻
+1. Navigate to [Free Code Camp: Learn Basic CSS](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-1).
+2. Follow the instructions and use CSS to build a Cafe Menu! 
+
 ## #checkoutTheDocs 🔍
 - **W3Schools**: [CSS Selector Reference](https://www.w3schools.com/cssref/css_selectors.php)
 - **W3Schools**: [CSS Properties Reference](https://www.w3schools.com/cssref/index.php)
