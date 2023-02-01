@@ -9,7 +9,7 @@
     - Bootstrap
     - Tailwind
 
-## Teach Yourself a Framework! 🚀
+## Teach Yourself a Framework! 💻
 
 **TASK**: Build and design a page using either the Bootstrap or Tailwind Framework. 
 
