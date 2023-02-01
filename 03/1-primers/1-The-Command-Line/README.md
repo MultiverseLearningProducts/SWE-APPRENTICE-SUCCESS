@@ -82,6 +82,12 @@ myUsername@myLaptopName superSecretFolder % pwd
 home/superSecretFolder
 ```
 
+## Try It Out! 💻 
+1. Navigate to the [Command Line Hidden Treasure Repo](https://github.com/MultiverseLearningProducts/Command-Line-Hidden-Treasure).
+2. Clone down the repo using the command `git clone URL_FROM_GITHUB`
+3. Using the commands `pwd`, `ls`, and `cd`, navigate in and out of the folders to find all 6 `X.txt` files.
+4. Use `pwd` to print the path to the files as you find them!
+
 ## #checkoutTheDocs 🔍
 - **MDN**: [Command Line Crash Course](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line)
 
