@@ -30,8 +30,12 @@ body {
 
 This now will color the `body` yellow on screens that are ***larger*** than 600px and will color the `body` lightblue on screens smaller than 600px. 
 
+## Try It Out 💻
+
+
 ## #checkoutTheDocs 🔍
 - **W3Schools**: [CSS @media Rule](https://www.w3schools.com/cssref/css3_pr_mediaquery.php)
+- **CSS Tricks**: [A Complete Guide to Media Queries](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
 
 ## Video Resources 🎥
 - [Learn How to Use CSS Media Queries](https://www.youtube.com/watch?v=2KL-z9A56SQ)

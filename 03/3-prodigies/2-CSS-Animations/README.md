@@ -90,6 +90,10 @@ div {
 
 You can also make this last for an infinite amount of time by adding the property value of `animation-iteration-count: infinite` to the div ruleset.
 
+## Try It Out 💻
+1. Navigate to [Free Code Camp Animation Activity](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-animation-by-building-a-ferris-wheel/step-1).
+2. Use the guided steps to build a ferris wheel using CSS Animations!
+
 ## #checkoutTheDocs 🔍
 - **W3Schools**: [CSS Transitions](https://www.w3schools.com/css/css3_transitions.asp)
 - **W3Schools**: [CSS Animations](https://www.w3schools.com/css/css3_animations.asp)
