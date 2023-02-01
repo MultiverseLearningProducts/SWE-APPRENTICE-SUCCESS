@@ -36,6 +36,10 @@ Adding a `margin: 3rem` to the `h2` ruleset would add a margin of `3rem` to each
 
 ![Box Model with Margin Added](../../assets/Margin.png)
 
+## Try It Out! 💻
+1. Navigate to [Free Code Camp: Learn CSS Box Model](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-the-css-box-model-by-building-a-rothko-painting/step-1)
+2. Build a Rothko-style rectangular art pieces using CSS!
+
 ## #checkoutTheDocs 🔍
 - **MDN**: [The Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
 
