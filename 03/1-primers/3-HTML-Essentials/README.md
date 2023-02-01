@@ -47,6 +47,11 @@ The following are HTML attributes and provide additional information about HTML 
 - `id`: Specifies a unique if for an HTML element.
 - `class`: Allows us to group together multiple HTML elements.
 
+## Try It Out 💻
+1. Navigate to [Free Code Camp: Learn HTML](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app/step-1).
+2. Follow the instructions and use HTML to build a Cat Photo App! 
+    - **NOTE**: You will only use HTML for this application, but we will talk about how to style these types of pages when we get to CSS!
+
 ## #checkoutTheDocs 🔍
 - **W3Schools**: [HTML Tag List](https://www.w3schools.com/tags/default.asp)
 
