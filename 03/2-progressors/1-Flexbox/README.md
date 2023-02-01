@@ -81,6 +81,10 @@ The main-axis is top to bottom and the cross-axis is right to left Thus, if we a
 
 ![align-items center example](../../assets/center.png)
 
+## Try It Out 💻
+1. Navigate back to [Flexbox Froggy](https://flexboxfroggy.com/).
+2. Can you complete all 24 levels using flexboxes? We think you can!
+
 ## #checkoutTheDocs 🔍
 - **CSS Tricks**: [A Complete Guide to CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
