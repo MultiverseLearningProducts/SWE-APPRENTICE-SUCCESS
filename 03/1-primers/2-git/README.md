@@ -25,6 +25,9 @@ When working with `git` and GitHub, there are three key areas to consider:
 
 ![git Commands](../../assets/repoFlow.png)
 
+## Try It Out 💻
+1. Navigate to [Learn Git Branching](https://learngitbranching.js.org/?locale=en_US) to practice various `git` commands and deepen your understanding of `git`.
+
 ## #checkoutTheDocs 🔍
 - **GitHub**: [git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
