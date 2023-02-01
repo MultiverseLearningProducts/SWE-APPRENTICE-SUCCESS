@@ -87,6 +87,10 @@ Now, we want the python element to take up two rows. We can style the python `di
 
 ![grid-row Example](../../assets/gridRow.png)
 
+## Try It Out 💻
+1. Navigate to [CSS Grid Garden](https://cssgridgarden.com/).
+2. Try to complete all 24 levels using only CSS Grid!
+
 ## #checkoutTheDocs 🔍
 - **CSS Tricks**: [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
