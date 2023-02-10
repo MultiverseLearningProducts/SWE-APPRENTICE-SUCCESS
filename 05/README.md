@@ -6,8 +6,8 @@
 - [Node Modules](./1-primers/2-node-modules/README.md)
 - [NPM](./1-primers/3-npm/README.md)
 - [Creating Classes and Objects](./1-primers/4-classes/README.md)
-Class Methods
-Exception Handling
+- [Class Methods](./1-primers/5-class-methods/README.md)
+- [Exception Handling](./1-primers/6-exception-handling/README.md)
 
 
 ## [Level 2 - Progressors](./2-progressors/README.md)
