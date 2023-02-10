@@ -1,5 +1,6 @@
 ![MV Logo](/logo.jpg)
 # Test Driven Development (TDD)
+**Note: This topic's challenge is to write tests for the functions in the modules in this directory!**
 
 ## TDD
 Test-Driven Development (TDD) is a software development process where you write tests before writing the actual implementation. The idea is to write tests that describe how the code should behave, then write the code to make the tests pass. This process helps ensure that your code is well-designed, testable, and that you have a suite of automated tests that can catch any regressions as you continue to make changes to your code.
