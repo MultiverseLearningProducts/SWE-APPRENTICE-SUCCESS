@@ -32,5 +32,7 @@ Instance methods are called on an instance of a class and have access to the ins
 Static methods, on the other hand, are called on the class itself and do not have access to instance data. The `calculateCircumference` method calculates the circumference of a circle using the given radius. To call a static method, you need to use the class name followed by the method name, without creating an instance of the class.
 
 ### #checkoutTheDocs 🔍
+- [MDN: Static methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
 
 ## Video Resources 🎥
+- [JavaScript Classes - Static Methods](https://www.youtube.com/watch?v=Jbopfp3LvRU)

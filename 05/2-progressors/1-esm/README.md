@@ -61,5 +61,10 @@ console.log(subtract(5, 2)); // 3
 ESM provides a more modern syntax for declaring and importing modules, and it also has better performance compared to CJS. However, CJS is still widely used in the Node.js ecosystem, so it's important to know both systems.
 
 ## #checkoutTheDocs 🔍
+- [ECMAScript Modules](https://nodejs.org/api/esm.html)
+- [MDN: JavaScript Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+- [MDN: Import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
+- [MDN: Export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)
 
 ## Video Resources 🎥
+- [JavaScript ES6 Modules](https://www.youtube.com/watch?v=cRHQNNcYf6s)

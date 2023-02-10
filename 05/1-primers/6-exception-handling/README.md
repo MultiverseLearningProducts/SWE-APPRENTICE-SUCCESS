@@ -33,5 +33,8 @@ By using exception handling, you can prevent the program from crashing when an e
 
 
 ### #checkoutTheDocs 🔍
+- [try...catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
+- [Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error)
 
 ## Video Resources 🎥
+- [try, catch, finally, throw - error handling in JavaScript](https://www.youtube.com/watch?v=cFTFtuEQ-10)

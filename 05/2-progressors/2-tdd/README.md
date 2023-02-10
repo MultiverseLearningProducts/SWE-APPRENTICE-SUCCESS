@@ -27,6 +27,10 @@ In TDD, you would start by writing a failing test, then write the implementation
 This is just a basic example, but it demonstrates the basic principles of TDD and writing unit tests in JavaScript using Jest. By following these principles, you can write high-quality code that is well-tested and maintainable.
 
 ## #checkoutTheDocs 🔍
-
+- [Jest](https://jestjs.io/)
+- [Jest API](https://jestjs.io/docs/en/api)
+- [Jest Expect](https://jestjs.io/docs/en/expect)
+- [Jest Matchers](https://jestjs.io/docs/en/using-matchers)
 
 ## Video Resources 🎥
+- [Jest Crash Course](https://www.youtube.com/watch?v=7r4xVDI2vho)

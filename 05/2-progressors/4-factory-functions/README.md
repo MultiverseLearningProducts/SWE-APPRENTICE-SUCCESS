@@ -59,6 +59,8 @@ person.sayHello(); // Output: "Hello, my name is John"
 ```
 
 ## #checkoutTheDocs 🔍
-
+- [Tutorial: Factory Functions](https://www.theodinproject.com/lessons/node-path-javascript-factory-functions-and-the-module-pattern)
+- [Tutorial: Constructor Functions](https://rollbar.com/blog/javascript-constructors)
 
 ## Video Resources 🎥
+- [Factory Functions](https://www.youtube.com/watch?v=ImwrezYhw4w)

@@ -41,6 +41,7 @@ In this example, Jest has calculated the coverage for various metrics:
 It's important to note that 100% coverage does not guarantee that your code is error-free. However, a high coverage percentage can indicate that your tests are thorough and that you have good test coverage. The goal is to strive for a high coverage percentage while writing tests that are both effective and maintainable.
 
 ## #checkoutTheDocs 🔍
-
+- [Jest Coverage](https://jestjs.io/docs/en/cli#--coverage)
 
 ## Video Resources 🎥
+- [Code Coverage](https://www.youtube.com/watch?v=W-dc5fpxUVs&t=8s)
