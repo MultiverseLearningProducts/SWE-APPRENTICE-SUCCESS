@@ -41,9 +41,9 @@ describe("Chuckles class", () => {
     expect(Chuckles.makeEveryoneLaugh()).toEqual("LOL");
   });
 
-  it("should have a static method jokeCount that returns the number of jokes", () => {
+  it("should have an instance method jokeCount that returns the number of jokes", () => {
     chuckles.addJoke("Why did the tomato turn red? Because it saw the salad dressing!");
     chuckles.addJoke("Why did the scarecrow win an award? Because he was outstanding in his field!");
-    expect(Chuckles.jokeCount()).toEqual(2);
+    expect(chuckles.jokeCount()).toEqual(2);
   });
 });
