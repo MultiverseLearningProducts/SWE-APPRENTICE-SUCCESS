@@ -27,7 +27,7 @@ let b = 3;
 b = 4; // This is okay because 'b' is a let variable and can be reassigned
 ```
 
-### #checkoutTheDocs 🔍
+## checkoutTheDocs 🔍
 - [MDN: const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
 - [MDN: let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
 
