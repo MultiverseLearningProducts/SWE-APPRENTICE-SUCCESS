@@ -16,8 +16,8 @@
 - [Factory Functions and Constructor Functions](./2-progressors/4-factory-functions/README.md)
   
 ## Level 3 - Prodigies
-Static Functions and Properties (Stretch? Not needed for core project)
-Inheritance and Encapsulation (Stretch? Not needed for core project)
+- [Static Functions and Properties](./3-prodigies/1-static-functions-properties/README.md)
+- [Inheritance and Encapsulation](./3-prodigies/2-inheritance-encapsulation/README.md)
+- [`this` context of Classes](./3-prodigies/3-this-context-classes/README.md)
 Check out TS/Java and reflect - How does a strictly OOP language feel?
-This context of Classes and Methods
 
