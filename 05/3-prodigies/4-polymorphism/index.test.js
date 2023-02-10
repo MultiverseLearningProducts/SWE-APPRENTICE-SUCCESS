@@ -11,8 +11,8 @@ describe("Animal class", () => {
     expect(animal).toBeInstanceOf(Animal);
   });
 
-  it("should have a sound property", () => {
-    expect(animal.sound).toBeDefined();
+  it("should have a makeNoise() method", () => {
+    expect(animal.makeNoise).toBeDefined();
   });
 });
 
@@ -27,8 +27,8 @@ describe("Pig class", () => {
     expect(pig).toBeInstanceOf(Animal);
   });
 
-  it("should have a sound property with the value 'Oink'", () => {
-    expect(pig.sound).toEqual("Oink");
+  it("should have a makeNoise() method with the value 'oink'", () => {
+    expect(pig.makeNoise()).toEqual("oink");
   });
 });
 
@@ -43,8 +43,8 @@ describe("Cow class", () => {
     expect(cow).toBeInstanceOf(Animal);
   });
 
-  it("should have a sound property with the value 'Moo'", () => {
-    expect(cow.sound).toEqual("Moo");
+  it("should have a makeNoise() method with the value 'moo'", () => {
+    expect(cow.makeNoise()).toEqual("moo");
   });
 });
 
@@ -59,7 +59,7 @@ describe("Chicken class", () => {
     expect(chicken).toBeInstanceOf(Animal);
   });
 
-  it("should have a sound property with the value 'Cluck'", () => {
-    expect(chicken.sound).toEqual("Cluck");
+  it("should have a makeNoise() method with the value 'cluck'", () => {
+    expect(chicken.makeNoise()).toEqual("cluck");
   });
 });
