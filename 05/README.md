@@ -19,5 +19,6 @@
 - [Static Functions and Properties](./3-prodigies/1-static-functions-properties/README.md)
 - [Inheritance and Encapsulation](./3-prodigies/2-inheritance-encapsulation/README.md)
 - [`this` context of Classes](./3-prodigies/3-this-context-classes/README.md)
-Check out TS/Java and reflect - How does a strictly OOP language feel?
+- [Polymorphism](./3-prodigies/4-polymorphism/README.md)
+- [Choose Your Adventure: TS/Java](./3-prodigies/5-choose-your-adventure/README.md)
 
