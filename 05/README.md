@@ -13,7 +13,7 @@
 - [Ecmascript Modules (ESM)](./2-progressors/1-esm/README.md)
 - [TDD](./2-progressors/2-tdd/README.md)
 - [Test Coverage](./2-progressors/3-test-coverage/README.md)
-Factory Functions and Constructor Functions
+- [Factory Functions and Constructor Functions](./2-progressors/4-factory-functions/README.md)
   
 ## Level 3 - Prodigies
 Static Functions and Properties (Stretch? Not needed for core project)
