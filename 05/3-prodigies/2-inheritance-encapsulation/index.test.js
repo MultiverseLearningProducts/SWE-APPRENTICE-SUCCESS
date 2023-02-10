@@ -45,7 +45,7 @@ describe("Champion", () => {
       expect(champion.pieEaten).toBe(20);
       champion.eatPie(1);
       expect(champion.pieEaten).toBe(20);
-      expect(champion.pieEatingRecords).toEqual([15, 5, 1]);
+      expect(champion.pieEatingRecords).toEqual([15, 5]);
   });
   
 });
