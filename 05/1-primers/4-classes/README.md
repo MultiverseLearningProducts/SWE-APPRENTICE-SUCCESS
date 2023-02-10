@@ -29,3 +29,12 @@ To create an instance of the `Animal` class, we use the `new` keyword, followed 
 In this case, we create a new `Animal` object named `dog`, and call the `speak` method on it, which logs the value of `dog.sound` to the console.
 
 JavaScript classes provide a convenient way to organize your code, and can be especially useful when creating multiple objects with similar properties and behaviors.
+
+### #checkoutTheDocs 🔍
+- [Classes in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
+- [Constructor Keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor)
+- [Class Keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class)
+- [Class Inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends)
+
+
+## Video Resources 🎥
