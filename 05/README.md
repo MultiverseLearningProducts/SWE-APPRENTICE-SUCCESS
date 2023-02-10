@@ -9,9 +9,8 @@
 - [Class Methods](./1-primers/5-class-methods/README.md)
 - [Exception Handling](./1-primers/6-exception-handling/README.md)
 
-
 ## [Level 2 - Progressors](./2-progressors/README.md)
-Ecmascript Modules (ESM)
+- [Ecmascript Modules (ESM)](./2-progressors/1-esm/README.md)
 Writing Unit Tests
 Test Coverage
 Classes: Syntactic Sugar for Factory Functions and Constructor Functions
