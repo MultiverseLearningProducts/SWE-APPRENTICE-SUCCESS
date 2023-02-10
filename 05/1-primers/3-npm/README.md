@@ -48,3 +48,9 @@ npm update <package-name>
 This will update the package to the latest version and update the `package.json` file.
 
 npm makes it easy to manage your project's dependencies and ensure that you have the latest version of each package.
+
+### #checkoutTheDocs 🔍
+- [getting started with the cli](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
+## Video Resources 🎥
+- [npm crash course](https://www.youtube.com/watch?v=jHDhaSSKmB0)

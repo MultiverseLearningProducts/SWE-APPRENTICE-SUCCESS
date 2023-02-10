@@ -36,5 +36,5 @@ JavaScript classes provide a convenient way to organize your code, and can be es
 - [Class Keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class)
 - [Class Inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends)
 
-
 ## Video Resources 🎥
+- [JavaScript Classes](https://www.youtube.com/watch?v=2ZphE5HcQPQ)

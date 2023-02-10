@@ -17,6 +17,11 @@ Class diagrams are a fundamental part of object-oriented analysis and design (OO
 ## Use Case Diagrams
 Use case diagrams are a visual representation of the functionality provided by a software system. They show the interactions between the system and its users, and are used to capture the requirements of a system from the user's perspective. To create a use case diagram, you need to identify the actors, who represent the users of the system, and the use cases, which represent the functionalities provided by the system. Connect the actors to the use cases to show their interactions and relationships. Use case diagrams help to identify the functional requirements of a system, making it easier to design and implement the software.
 
-### #checkoutTheDocs 🔍
+## #checkoutTheDocs 🔍
+UML Class Diagrams
+- [UML](https://www.geeksforgeeks.org/unified-modeling-language-uml-introduction/)
+- [OOAD](https://www.tutorialspoint.com/object_oriented_analysis_design/ooad_object_oriented_design.htm)
+- [UML Class Diagrams](https://www.uml-diagrams.org/class-diagrams-overview.html)
 
 ## Video Resources 🎥
+- [Object Oriented Design](https://www.youtube.com/watch?v=fJW65Wo7IHI)

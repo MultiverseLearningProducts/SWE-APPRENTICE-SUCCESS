@@ -26,3 +26,10 @@ In this example, we have two separate files `math.js` and `index.js`. The `math.
 In the `index.js` file, we use the require function to import the contents of the `math.js` file. This gives us access to the `add` function, which we can then use to perform a calculation and print the result.
 
 In this way, we can structure your code into reusable, modular components that can be combined in different ways to build complex applications.
+
+### #checkoutTheDocs 🔍
+- [Node.js Modules](https://nodejs.org/api/modules.html#modules-commonjs-modules)
+- [Node.js Modules Tutorial](https://www.tutorialsteacher.com/nodejs/nodejs-modules)
+
+## Video Resources 🎥
+- [Node.js Tutorial for Beginners: Learn Node in 1 Hour](https://www.youtube.com/watch?v=TlB_eWDSMt4)
