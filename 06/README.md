@@ -10,17 +10,16 @@
 - [Sequelize Associations](./1-primers/6-sequelize-associations/README.md)
 
 ## Level 2 - Progressors
-.then
-Promise Constructor
-SQL SELECT
-SQL CRUD
-SQL JOIN
-SQL Outer Join
-SQL Self Join
-SQL Order By
-SQL comparison operators (Like, In, =, >, <)
-Sequelize class methods
-Sequelize instance methods
+-[.then() and .catch()](./2-progressors/1-then-catch/README.md)
+- [Writing Promises](./2-progressors/2-writing-promises/README.md)
+- [SQL SELECT](./2-progressors/3-sql-select/README.md)
+- [SQL comparison operators (Like, In, =, >, <)](./2-progressors/4-sql-comparison-operators/README.md)
+- [SQL JOIN](./2-progressors/5-sql-join/README.md)
+- [SQL ORDER BY and LIMIT](./2-progressors/6-sql-order-by-limit/README.md)
+- [SQL INSERT](./2-progressors/7-sql-insert/README.md)
+- [SQL UPDATE](./2-progressors/8-sql-update/README.md)
+- [Sequelize class methods](./2-progressors/9-sequelize-class-methods/README.md)
+- [Sequelize instance methods](./2-progressors/10-sequelize-instance-methods/README.md)
   
 ## Level 3 - Prodigies
 SQL Subqueries
