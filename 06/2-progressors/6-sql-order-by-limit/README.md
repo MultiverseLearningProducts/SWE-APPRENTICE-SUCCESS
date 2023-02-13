@@ -33,8 +33,6 @@ OFFSET 5;
 
 ## #checkoutTheDocs 🔍
 - [SQL ORDER BY](https://www.w3schools.com/sql/sql_orderby.asp)
-- [SQL LIMIT](https://www.w3schools.com/sql/sql_limit.asp)
-- [SQL OFFSET](https://www.w3schools.com/sql/sql_offset.asp)
 
 ## Video Resources 🎥
 - [SQL ORDER BY](https://www.youtube.com/watch?v=7S_tz1z_5bA&t=4458s)

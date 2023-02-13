@@ -22,15 +22,11 @@
 - [Sequelize instance methods](./2-progressors/10-sequelize-instance-methods/README.md)
   
 ## Level 3 - Prodigies
-SQL Subqueries
-SQL Views
-SQL Functions
-SQL Group By
-Sequelize Hooks
-Sequelize Operators (Op.eq, Op.gt, Op.like, etc.)
-NoSQL?
-Go research a db system (MongoDB, Firebase, etc.) and reflect on differences between SQL and NoSQL
-
-
-
-
+- [SQL Subqueries](./3-prodigies/1-sql-subqueries/README.md)
+- [SQL Views](./3-prodigies/2-sql-views/README.md)
+- [SQL Functions](./3-prodigies/3-sql-functions/README.md)
+- [SQL Group By](./3-prodigies/4-sql-group-by/README.md)
+- [Sequelize Hooks](./3-prodigies/5-sequelize-hooks/README.md)
+- [Sequelize Operators (Op.eq, Op.gt, Op.like, etc.)](./3-prodigies/6-sequelize-operators/README.md)
+- [NoSQL](./3-prodigies/7-nosql/README.md)
+- [MongoDB](./3-prodigies/8-mongodb/README.md)
