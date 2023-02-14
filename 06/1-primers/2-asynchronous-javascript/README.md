@@ -21,10 +21,8 @@ In this example, you can see that the `setTimeout` function is set to run after 
 
 This is a simple example, but it demonstrates the basic concept of asynchronous code in JavaScript.
 
-
 ## #checkoutTheDocs 🔍
 - [MDN - Asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous)
-
 
 ## Video Resources 🎥
 - [Async JS Crash Course - Callbacks, Promises, Async Await](https://www.youtube.com/watch?v=PoRJizFvM7s)
