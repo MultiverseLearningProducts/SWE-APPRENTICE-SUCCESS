@@ -1,3 +1,5 @@
+![MV Logo](/logo.jpg)
+
 # React
 
 - React is a JavaScript library that is used to build user interfaces.
@@ -38,7 +40,7 @@ npm run start
 
 ## #checkoutTheDocs 🔍
 - **React**: [Start a New React App](https://beta.reactjs.org/learn/start-a-new-react-project)
-- **Parcel**: [React]
+- **Parcel**: [React](https://parceljs.org/recipes/react/)
 
 ## Video Resources 🎥
 - [How to Setup React JS with Parcel](https://www.youtube.com/watch?v=U7CQE1TFMkg)
