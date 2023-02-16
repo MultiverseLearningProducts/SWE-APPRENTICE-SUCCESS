@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}  
+
+.Pizza {
+  height: 50vh;
+  color: white;
+  text-align: center;
+  background: url(./components/images/pizza-splash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.Pizza .header-text {
+  padding-top: 4%;
+}
+
+.header-text {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.card {
+  margin: 3% auto;
+  justify-content: center;
+  text-align: center;
+  padding: 0px
+}
+
+.card-img-top{
+  max-height: 18rem
+}
+
+.Menu {
+  background-image: linear-gradient(
+    to right top,
+    #b40000,
+    #ca3929,
+    #de5c4c,
+    #ef7c70,
+    #fe9c93
+  );
+}
+
+.primary-text,
+.secondary-text {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Menu .primary-text {
+  padding-top: 5%;
+  font-size: 50px;
+}
+
+.Menu .secondary-text {
+  padding-bottom: 3%;
+  font-size: 30px;
+}
+
+.footer {
+  text-align: center;
+}
