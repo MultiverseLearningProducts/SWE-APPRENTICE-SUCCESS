@@ -1,11 +1,11 @@
 import { db } from './db';
-import { Wizard } from './1-primers/4-sequelize-connection-model';
+import { Wizard } from './4-sequelize-connection-model';
 import {
   createWizard,
   findWizard,
   deleteWizard,
   updateWizard,
-} from './1-primers/5-sequelize-crud';
+} from './5-sequelize-crud';
 
 describe('Wizard', () => {
   

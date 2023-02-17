@@ -1,4 +1,4 @@
-import { db, Sequelize, DataTypes } from '../../db';
+import { db, Sequelize, DataTypes } from '../db';
 import { Wizard } from '../4-sequelize-connection-model';
 
 /* 
