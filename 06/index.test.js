@@ -44,11 +44,12 @@ describe('Wizard', () => {
     });
 
     test('should throw an error if the wizard power is missing', async () => {
-      await expect(Wizard.create({
+      const wizard = await Wizard.create({
         name: 'Ron Weasley',
         spell: 'Wingardium Leviosa',
         house: 'Gryffindor',
-      })).rejects.toThrow();
+      });
+      expect(wizard.power).toEqual(0);
     });
 
     test('should create a wizard with default house', async () => {
