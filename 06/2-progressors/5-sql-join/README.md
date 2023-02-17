@@ -34,3 +34,5 @@ This query will return _all_ the rows from the `superheroes` table and the match
 ## Video Resources 🎥
 - [SQL Inner Joins](https://www.youtube.com/watch?v=7S_tz1z_5bA&t=5090s)
 
+## Challenges
+Make sure to complete the [challenges](challenges.md) for this module.

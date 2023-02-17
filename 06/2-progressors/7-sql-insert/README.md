@@ -21,3 +21,6 @@ VALUES ('Batman', 'Intelligence', 40),
 
 ## Video Resources 🎥
 - [SQL INSERT](https://www.youtube.com/watch?v=7S_tz1z_5bA&t=8994s)
+
+## Challenges
+Make sure to complete the [challenges](challenges.md) for this module.

@@ -23,3 +23,6 @@ This statement will only update the rows in the `superheroes` table where the `n
 
 ## Video Resources 🎥
 - [SQL: Updating a Single Row](https://www.youtube.com/watch?v=7S_tz1z_5bA&t=10418s)
+
+## Challenges
+Make sure to complete the [challenges](challenges.md) for this module.

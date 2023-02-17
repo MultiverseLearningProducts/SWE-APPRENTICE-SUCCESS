@@ -36,3 +36,6 @@ WHERE name = 'Superman';
 ## Video Resources 🎥
 - [SQL SELECT Statement](https://www.youtube.com/watch?v=7S_tz1z_5bA&t=1420s)
 - [SQL WHERE Clause](https://www.youtube.com/watch?v=7S_tz1z_5bA&t=2298s)
+
+## Challenges
+Make sure to complete the [challenges](challenges.md) for this module.

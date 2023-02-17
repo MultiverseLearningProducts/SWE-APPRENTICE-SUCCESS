@@ -23,3 +23,6 @@ Subqueries can also be used in other parts of a SQL statement, such as the `FROM
 
 ## Video Resources 🎥
 - [SQL Subqueries in Update Statements](https://www.youtube.com/watch?v=7S_tz1z_5bA&t=10847s)
+
+## Challenges
+Make sure to complete the [challenges](challenges.md) for this module.

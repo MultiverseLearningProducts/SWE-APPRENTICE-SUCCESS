@@ -36,3 +36,6 @@ OFFSET 5;
 
 ## Video Resources 🎥
 - [SQL ORDER BY](https://www.youtube.com/watch?v=7S_tz1z_5bA&t=4458s)
+
+## Challenges
+Make sure to complete the [challenges](challenges.md) for this module.

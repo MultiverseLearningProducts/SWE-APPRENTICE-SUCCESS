@@ -56,3 +56,6 @@ This query will return all the rows from the superheroes table where the value i
 
 ## Video Resources 🎥
 - [SQL Comparison Operators](https://www.youtube.com/watch?v=7S_tz1z_5bA&t=3098s)
+
+## Challenges
+Make sure to complete the [challenges](challenges.md) for this module.
