@@ -1,4 +1,6 @@
 import { db, Sequelize, DataTypes } from '../../db';
+import { Wizard } from '../4-sequelize-connection-model';
+
 /* 
 
 You have been tasked with implementing four functions to interact with the wizard model using Sequelize's methods. You should implement the following functions:
