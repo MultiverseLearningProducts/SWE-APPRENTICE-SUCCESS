@@ -1,4 +1,4 @@
-const { db } = require('./db');
+import { db } from './db';
 import { Wizard } from './1-primers/4-sequelize-connection-model';
 
 describe('Wizard', () => {
