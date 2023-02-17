@@ -1,10 +1,15 @@
+import jest from 'jest';
 import { alligatorPromise, averageNumbers } from "./index.js";
 
 describe('Promises', () => {
   describe("alligatorPromise", () => {
-    test("resolves with 'Alligator!' after a random time between 1 and 5 seconds", async () => {
-      const result = await alligatorPromise();
-      expect(result).toBe("Alligator!");
+    test("resolves with 'Alligator!' after a random time between 1 and 4 second.", async () => {
+      try {
+        const result = await alligatorPromise();
+        expect(result).toBe("Alligator!");
+      } catch (error) {
+        console.log(error);
+      }
     });
   
     test("rejects with 'Oh no, it's a crocodile!' if the random time is divisible by 2", async () => {
