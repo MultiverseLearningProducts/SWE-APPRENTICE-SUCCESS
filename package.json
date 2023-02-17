@@ -23,7 +23,9 @@
   "keywords": [],
   "author": "Multiverse Learning Products",
   "dependencies": {
-    "jest": "29.3.1"
+    "jest": "29.3.1",
+    "sequelize": "6.28.0",
+    "sqlite3": "5.1.4"
   },
   "type": "module"
 }
