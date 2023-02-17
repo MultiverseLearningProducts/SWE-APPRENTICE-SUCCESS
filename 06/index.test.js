@@ -1,5 +1,5 @@
 const { db } = require('./db');
-import { Wizard } from './4-sequelize-connection-model';
+import { Wizard } from './1-primers/4-sequelize-connection-model';
 
 describe('Wizard', () => {
   beforeAll(async () => {
