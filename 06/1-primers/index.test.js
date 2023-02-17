@@ -166,4 +166,68 @@ describe('Wizard', () => {
       });
     });
   });
+  describe('Associations - getWizardWithOwls', () => {
+    beforeAll(async () => {
+      // connect to and rebuild the db
+      await db.sync({force: true});
+      await Wizard.create({
+        name: 'Harry Potter',
+        spell: 'Expecto Patronum',
+        power: 10,
+        house: 'Gryffindor',
+      });
+      await Wizard.create({
+        name: 'Hermione Granger',
+        spell: 'Wingardium Leviosa',
+        power: 9,
+        house: 'Gryffindor',
+      });
+      await Owl.create({
+        name: 'Hedwig',
+        species: 'Snowy Owl',
+        age: 5,
+        wizardId: 1,
+      });
+      await Owl.create({
+        name: 'Crookshanks',
+        species: 'Half-Kneazle',
+        age: 3,
+        wizardId: 2,
+      });
+    });
+
+    test('returns the wizard with the provided ID and their owls', async () => {
+      const result = await getWizardWithOwls(1);
+      expect(result.id).toBe(1);
+      expect(result.name).toBe('Harry Potter');
+      expect(result.spell).toBe('Expecto Patronum');
+      expect(result.power).toBe(10);
+      expect(result.house).toBe('Gryffindor');
+      expect(Array.isArray(result.owls)).toBe(true);
+      expect(result.owls.length).toBe(1);
+      expect(result.owls[0].id).toBe(1);
+      expect(result.owls[0].name).toBe('Hedwig');
+      expect(result.owls[0].species).toBe('Snowy Owl');
+      expect(result.owls[0].age).toBe(5);
+      expect(result.owls[0].wizardId).toBe(1);
+    });
+  
+    test('returns the wizard with the provided ID and no owls if the wizard has no owls', async () => {
+      const result = await getWizardWithOwls(2);
+      expect(result.id).toBe(2);
+      expect(result.name).toBe('Hermione Granger');
+      expect(result.spell).toBe('Wingardium Leviosa');
+      expect(result.power).toBe(9);
+      expect(result.house).toBe('Gryffindor');
+      expect(Array.isArray(result.owls)).toBe(true);
+      expect(result.owls.length).toBe(0);
+    });
+  
+    test('returns null if there is no wizard with the provided ID', async () => {
+      const result = await getWizardWithOwls(3);
+      expect(result).toBeNull();
+    });
+
+
+  });
 });
