@@ -6,6 +6,10 @@
 - Props allow general components to be specialized based on the information that is provided (e.g. a set of `Card` components on a page look different due to props passed to the the `Card`). 
 - Every parent component can pass some information to its child components by giving them props.
 
+![](../../assets/Components.png)
+
+*<center>An example of components on AirBnb. Each card component gets different images, titles, prices, etc.</center>*
+
 ## Props Syntax 🖊️
 
 Similar to HTML attributes, props are any one word name that are added inside the Component invocation.
