@@ -220,7 +220,7 @@ describe('Wizard', () => {
       expect(result.power).toBe(9);
       expect(result.house).toBe('Gryffindor');
       expect(Array.isArray(result.owls)).toBe(true);
-      expect(result.owls.length).toBe(0);
+      expect(result.owls[0].name).toBe('Crookshanks');
     });
   
     test('returns null if there is no wizard with the provided ID', async () => {
