@@ -1,27 +1,17 @@
-
-import { Sequelize, DataTypes } from 'sequelize';
+const { db } = require('./db');
 import { Wizard } from './4-sequelize-connection-model';
 
 describe('Wizard', () => {
-  let sequelize;
-
   beforeAll(async () => {
-    // in-memory database just for testing,
-    // to minimize confusing boilerplate files/code
-    sequelize = new Sequelize('sqlite::memory:', { logging: false });
-    // more or less connect to the db
-    await sequelize.authenticate();
+    // connect to the db
+    await db.sync({force: true});
   });
 
   afterAll(async () => {
-    await sequelize.close();
+    await db.close();
   });
 
   describe('Model Definition', () => {
-    beforeAll(async () => {
-      // define the model in the database, based on the code written
-      await Wizard.initialize(sequelize);
-    });
 
     test('should create a wizard with valid fields', async () => {
       const wizard = await Wizard.create({

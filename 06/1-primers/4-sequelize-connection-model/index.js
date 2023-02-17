@@ -1,3 +1,4 @@
+import { db } from '../../db';
 /* 
 
 You've been tasked with creating a database to store a list of wizards and their spells. You should use Sequelize to define a database connection and a model for the wizards.
