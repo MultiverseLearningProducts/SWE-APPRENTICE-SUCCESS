@@ -1,12 +1,12 @@
 import React from "react";
 
-function Card({name, activity, image}){
+function Card(){
     return(
-        <div class="card">
-            <img src="img_avatar.png" alt="Avatar" style="width:100%"/>
-            <div class="container">
-                <h4><b>John Doe</b></h4>
-                <p>Architect & Engineer</p>
+        <div className="card">
+            <img src="" alt=""/>
+            <div className="container">
+                <h4><b>NAME</b></h4>
+                <p>I really love ACTIVITY</p>
             </div>
         </div>
     )

@@ -1,12 +1,23 @@
 import React from "react";
-import Card from "./components/Card"
-import bella from "./components/images/Bella.jpg"
+// Import Card component and images here
+
+
+import "./style.css";
+
 function App() {
     return(
-        <>
-            <h1>Hello World</h1>
-            <Card name = "buster" activity = "running" image = {bella}/>
-        </>
+        <div className = "page">
+            <h1 id = "title">Dogbook 🐶</h1>
+            <div className="app">
+                {/* Render Card components here */}
+                
+                
+                
+                
+
+
+            </div>
+        </div>
         
     )
 }
