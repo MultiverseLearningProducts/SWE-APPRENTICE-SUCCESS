@@ -8,16 +8,16 @@ import {
 } from './1-primers/5-sequelize-crud';
 
 describe('Wizard', () => {
-  beforeAll(async () => {
-    // connect to the db
-    await db.sync({force: true});
-  });
-
+  
   afterAll(async () => {
     await db.close();
   });
-
+  
   describe('Model Definition', () => {
+    beforeAll(async () => {
+      // connect to and rebuild the db
+      await db.sync({force: true});
+    });
 
     test('should create a wizard with valid fields', async () => {
       const wizard = await Wizard.create({
@@ -77,6 +77,10 @@ describe('Wizard', () => {
     });
   });
   describe('CRUD', () => {
+    beforeAll(async () => {
+      // connect to and rebuild the db
+      await db.sync({force: true});
+    });
     describe('createWizard', () => {
       test('should create a wizard with the given data', async () => {
         const wizardData = {
