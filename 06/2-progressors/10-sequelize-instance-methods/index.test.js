@@ -22,7 +22,7 @@ describe('Potion', () => {
     });
   
     test('should calculate the total value of the potion', () => {
-      expect(potion.getTotalValue()).toBeCloseTo(41.23);
+      expect(potion.getTotalValue()).toBeCloseTo(32.97);
     });
   
     test('should handle a potion with a quantity of 0', () => {
@@ -32,7 +32,8 @@ describe('Potion', () => {
   
     test('should handle a potion with a negative price', () => {
       potion.price = -5.99;
-      expect(potion.getTotalValue()).toBeCloseTo(-8.74);
+      potion.quantity = 3;
+      expect(potion.getTotalValue()).toBeCloseTo(-17.97);
     });
   });
 
