@@ -31,13 +31,13 @@ This query will give us the count of superheroes for each combination of `superp
 
 The `GROUP BY` statement is a powerful tool in SQL that allows you to get a higher-level understanding of your data and create meaningful insights.
 
-```sql
-
-
-
-
 
 ## #checkoutTheDocs 🔍
-
+- [SQL GROUP BY](https://www.w3schools.com/sql/sql_groupby.asp)
 
 ## Video Resources 🎥
+- [SQL Group By](https://www.youtube.com/watch?v=qpF7Y2fGTrE)
+- [GROUP BY with Multiple Columns](https://www.youtube.com/watch?v=VLW6oYS9S_Q)
+
+## Challenges
+Make sure to complete the [challenges](challenges.md) for this module.

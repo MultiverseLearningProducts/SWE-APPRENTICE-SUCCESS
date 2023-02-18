@@ -25,3 +25,6 @@ It's worth noting that views are only a virtual representation of the data and d
 
 ## Video Resources 🎥
 - [SQL Views in 4 Minutes](https://www.youtube.com/watch?v=vLLkNI-vkV8)
+
+## Challenges
+Make sure to complete the [challenges](challenges.md) for this module.
