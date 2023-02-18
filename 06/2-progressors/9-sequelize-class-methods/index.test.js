@@ -1,7 +1,7 @@
 import { db } from '../db';
 import { Potion, Ingredient } from '.';
 
-describe('Wizard', () => {
+describe('Potion', () => {
   
   afterAll(async () => {
     await db.close();
