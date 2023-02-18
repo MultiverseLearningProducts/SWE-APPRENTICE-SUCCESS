@@ -53,6 +53,11 @@ const Potion = db.define('potion', {
     validate: {
       min: 0
     }
+  },
+  quantity: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+    defaultValue: 0,
   }
 });
 
