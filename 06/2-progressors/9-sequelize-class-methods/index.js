@@ -64,10 +64,12 @@ const Potion = db.define('potion', {
 Ingredient.belongsToMany(Potion, { through: 'PotionIngredients' });
 Potion.belongsToMany(Ingredient, { through: 'PotionIngredients' });
 
+// 👇👇👇 DEFINE Potion.getIngredients CLASS METHOD HERE 👇👇👇
+
+
+
+// DO NOT MODIFY THIS EXPORT
 export {
   Ingredient,
   Potion,
 }
-
-// 👇👇👇 DEFINE Potion.getIngredients CLASS METHOD HERE 👇👇👇
-
