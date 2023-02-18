@@ -1,5 +1,5 @@
 import { db, Sequelize, DataTypes } from '../db';
-import { Potion, Ingredient } from './9-sequelize-class-methods';
+import { Potion, Ingredient } from '../9-sequelize-class-methods';
 /* 
 
 You are working on a database for a magical potion shop that specializes in strange and unusual potions. The shop has a variety of potions with various effects, and each potion has its own set of ingredients.
