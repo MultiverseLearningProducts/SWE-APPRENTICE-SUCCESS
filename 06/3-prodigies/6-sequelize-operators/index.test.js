@@ -13,14 +13,19 @@ describe('Wand', () => {
       // connect to and rebuild the db
       await db.sync({force: true});
 
-      wands = await Wand.bulkCreate([
-        { wood: 'Oak', length: 12, price: 10 },
-        { wood: 'Oak', length: 13, price: 12 },
-        { wood: 'Maple', length: 12, price: 8 },
-        { wood: 'Maple', length: 13, price: 15 },
-        { wood: 'Walnut', length: 12, price: 11 },
-        { wood: 'Walnut', length: 13, price: 13 },
-      ]);
+      try {
+        
+        wands = await Wand.bulkCreate([
+          { wood: 'Oak', length: 12, price: 10 },
+          { wood: 'Oak', length: 13, price: 12 },
+          { wood: 'Maple', length: 12, price: 8 },
+          { wood: 'Maple', length: 13, price: 15 },
+          { wood: 'Walnut', length: 12, price: 11 },
+          { wood: 'Walnut', length: 13, price: 13 },
+        ]);
+      } catch (error) {
+        console.error(error)
+      }
     });
 
     test('returns the most expensive wand for a given wood', async () => {

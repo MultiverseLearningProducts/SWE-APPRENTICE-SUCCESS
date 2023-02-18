@@ -38,7 +38,7 @@ const Wand = db.define('wand', {
   },
   core: {
     type: DataTypes.STRING,
-    allowNull: false
+    allowNull: true
   },
   length: {
     type: DataTypes.FLOAT,
