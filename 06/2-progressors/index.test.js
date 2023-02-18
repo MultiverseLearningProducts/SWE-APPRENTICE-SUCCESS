@@ -12,33 +12,37 @@ describe('Wizard', () => {
       // connect to and rebuild the db
       await db.sync({force: true});
   
-      const mandrakeElixir = await Potion.create({
-        name: 'Mandrake Elixir',
+      const mandrakeElixir = await Potion.create(
+        {
+          name: 'Mandrake Elixir',
+          ingredients: [
+            { name: 'wormwood' },
+            { name: 'mandrake root' },
+          ]
+        },
+        {
+          include: Ingredient
+        }
+      );
+
+      const potions = await Potion.findAll({
+        include: Ingredient
       });
-      await Ingredient.create({
-        name: 'wormwood',
-        potionId: mandrakeElixir.id,
-      });
-      await Ingredient.create({
-        name: 'mandrake root',
-        potionId: mandrakeElixir.id,
-      });
+      
   
-      const poltergeistPotion = await Potion.create({
-        name: 'Poltergeist Potion',
-      });
-      await Ingredient.create({
-        name: 'ghost pepper',
-        potionId: poltergeistPotion.id,
-      });
-      await Ingredient.create({
-        name: 'ectoplasm',
-        potionId: poltergeistPotion.id,
-      });
-      await Ingredient.create({
-        name: 'slime mold',
-        potionId: poltergeistPotion.id,
-      });
+      const poltergeistPotion = await Potion.create(
+        {
+          name: 'Poltergeist Potion',
+          ingredients: [
+            { name: 'ghost pepper' },
+            { name: 'ectoplasm' },
+            { name: 'slime mold' },
+          ]
+        },
+        {
+          include: Ingredient
+        }
+      );
     });
   
     test('getIngredients returns the ingredients for a potion sorted alphabetically', async () => {
