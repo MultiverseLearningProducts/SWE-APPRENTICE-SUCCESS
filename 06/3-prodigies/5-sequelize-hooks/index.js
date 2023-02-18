@@ -10,7 +10,7 @@ To make the database more user-friendly, you want to ensure that the names of th
 */
 
 // model definition provided
-const Wand = db.define('patronus', {
+const Patronus = db.define('patronus', {
   name: {
     type: DataTypes.STRING,
     allowNull: false,
@@ -27,5 +27,5 @@ const Wand = db.define('patronus', {
 
 // DO NOT MODIFY THIS EXPORT
 export {
-  Wand,
+  Patronus,
 }

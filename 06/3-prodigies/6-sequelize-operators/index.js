@@ -31,7 +31,7 @@ console.log(result);
 */
 
 // model definition provided
-const Wand = db.define('patronus', {
+const Wand = db.define('wand', {
   wood: {
     type: DataTypes.STRING,
     allowNull: false
