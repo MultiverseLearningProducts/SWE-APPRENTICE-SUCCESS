@@ -1,5 +1,5 @@
-import { db } from './db';
-import { Potion, Ingredient } from './9-sequelize-class-methods';
+import { db } from '../db';
+import { Potion, Ingredient } from '.';
 
 describe('Wizard', () => {
   
