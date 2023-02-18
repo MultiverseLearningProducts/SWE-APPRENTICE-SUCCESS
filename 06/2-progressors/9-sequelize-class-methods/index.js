@@ -23,7 +23,7 @@ console.log(ingredients); // ['mandrake root', 'wormwood']
 
 
 // Ingredient Model Definition
-export const Ingredient = sequelize.define('ingredient', {
+const Ingredient = db.define('ingredient', {
   name: {
     type: DataTypes.STRING,
     allowNull: false,
@@ -36,7 +36,7 @@ export const Ingredient = sequelize.define('ingredient', {
 });
 
 // Potion Model Definition
-export const Potion = sequelize.define('potion', {
+const Potion = db.define('potion', {
   name: {
     type: DataTypes.STRING,
     allowNull: false,
@@ -54,6 +54,14 @@ export const Potion = sequelize.define('potion', {
     }
   }
 });
+
+Ingredient.belongsToMany(Potion, { through: 'PotionIngredients' });
+Potion.belongsToMany(Ingredient, { through: 'PotionIngredients' });
+
+export {
+  Ingredient,
+  Potion,
+}
 
 // 👇👇👇 DEFINE Potion.getIngredients CLASS METHOD HERE 👇👇👇
 
