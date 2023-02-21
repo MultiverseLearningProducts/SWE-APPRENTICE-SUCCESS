@@ -1,12 +1,16 @@
 import React from "react";
-import { useState } from 'react';
+
+
 
 function Slider() {
-    const [slideVal, setSlider] = useState(50);
+
+
+
     return(
         <div className="card">
             <div className="card-body">
-            <h5 className="card-title">Slider Value: {slideVal}</h5>
+            {/* Output slideVal state here */}
+            <h5 className="card-title">Slider Value: </h5>
                 <div class="slidecontainer">
                     <input 
                     type="range" 
@@ -14,8 +18,11 @@ function Slider() {
                     max="100" 
                     class="slider" 
                     id="myRange"
-                    // 
-                    onChange = {(event) => setSlider(event.target.value)}
+                    // Update slideVal state here
+                    
+
+
+                    
                     />
                 </div>
             </div>
