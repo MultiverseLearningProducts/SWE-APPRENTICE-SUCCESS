@@ -1,3 +1,5 @@
+![logo](/logo.jpg)
+
 # Controlled Inputs
 - In HTML, form elements such as `<input>`, `<textarea>`, and `<select>` typically maintain their own state and update it based on user input. 
 - In React, state is stored and updated using the `useState` hook. 
