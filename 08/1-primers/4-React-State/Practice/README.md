@@ -4,7 +4,6 @@
 
 ![State Buttons Final Product](./StateButtons.png)
 
-
 ## What To Do
 1. In `App.js`, import each of the components (`Languages`, `Counter`, `Radio`, `TextInput`, `Slider`, and `Color`) and render them inside `app` div.
 2. In `Languages.js` complete the following:
