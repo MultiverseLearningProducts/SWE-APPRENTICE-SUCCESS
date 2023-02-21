@@ -6,7 +6,7 @@ import React from "react";
 function App() {
     return(
         <div className = "page">
-            <h1 id = "title">Submit Handlers</h1>
+            <h1 id = "title">Fetch Data</h1>
             <div className="app">
                 {/* Render all components here */}
 
