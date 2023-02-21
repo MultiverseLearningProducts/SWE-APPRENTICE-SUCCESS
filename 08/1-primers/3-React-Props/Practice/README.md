@@ -1,8 +1,8 @@
 # Dogbook 🐶
 
-![Dogbook Final Product](./Dogbook.png)
-
 **TASK**: You are part of a new social media company that wants to make a social media application for dogs to share information about themselves. Luckily, they have decided to use React for the front end.
+
+![Dogbook Final Product](./Dogbook.png)
 
 ## What To Do
 1. In `App.js`, import and render 10 `Card` components.
