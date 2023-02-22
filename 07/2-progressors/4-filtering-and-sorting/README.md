@@ -4,7 +4,7 @@ Have you ever tried to find all the Superheroes that are over 30 years old or so
 ## Filtering
 To filter data in Express, you can use query parameters to pass the values you want to filter on. For example, let's say we want to get all the Superheroes who are over 30 years old:
 
-```
+```js
 import express from 'express';
 import { Op } from 'sequelize';
 import Superhero from '../models/Superhero';
@@ -28,7 +28,7 @@ In this example, we're using the `findAll` method of Sequelize to retrieve all t
 ### Sorting
 To sort data in Express, you can use the `order` option of the `findAll` method in Sequelize. For example, let's say we want to sort our Superheroes by their superpower in descending order:
 
-```
+```js
 import express from 'express';
 import Superhero from '../models/Superhero';
 
