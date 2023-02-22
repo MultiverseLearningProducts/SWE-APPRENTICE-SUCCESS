@@ -22,7 +22,7 @@
 - [404 Handling with Express](./2-progressors/6-404-handling/README.md)
   
 ## Level 3 - Prodigies
-Express Status Codes
+- [Express Status Codes](./3-prodigies/1-express-status-codes/README.md)
 Basic Authentication
 GraphQL - Setup
 GraphQL - Queries
