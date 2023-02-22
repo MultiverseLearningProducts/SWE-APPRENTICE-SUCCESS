@@ -23,7 +23,11 @@
   
 ## Level 3 - Prodigies
 - [Express Status Codes](./3-prodigies/1-express-status-codes/README.md)
-Basic Authentication
+- [Basic Authentication](./3-prodigies/2-basic-authentication/README.md)
 GraphQL - Setup
 GraphQL - Queries
 GraphQL - Mutations
+Other topics to explore with GraphQL
+GraphQL - Types & Schemas
+GraphQL - Auth Directives
+
