@@ -35,7 +35,7 @@ Here are some common status codes that you can use in your Express applications:
 
 When setting the status code, it's a good practice to also set a message that explains what happened. The `send` method of the `res` object can be used to send a message with the response.
 
-## 📚 Documentation
+## #checkoutTheDocs 🔍
 - [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 - [Express.js: HTTP Status Codes](https://expressjs.com/en/api.html#res.status)
 - [HTTP Cats](https://http.cat/)

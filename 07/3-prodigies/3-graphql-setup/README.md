@@ -53,7 +53,7 @@ We're then creating a `root` object with a resolver function for the `rocket` qu
 
 Finally, we're setting up an Express app and using the `express-graphql` package to create a GraphQL endpoint at `/graphql`. We're passing in our schema and root object, as well as enabling the GraphiQL UI for testing our queries.
 
-## 📚 Documentation
+## #checkoutTheDocs 🔍
 - [GraphQL.org](https://graphql.org/)
 - [express-graphql](https://github.com/graphql/express-graphql)
 

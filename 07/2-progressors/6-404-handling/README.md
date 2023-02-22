@@ -22,7 +22,7 @@ app.use((req, res, next) {
 ```
 
 The `handle404` middleware function creates a new error with a message and a status code of 404. It then calls `next` with the error as an argument. The `handleError` middleware function checks the error for a status code and message, and sends an appropriate response to the client.
-## 📚 Documentation
+## #checkoutTheDocs 🔍
 - [Express - 404 handling](http://expressjs.com/en/starter/faq.html#how-do-i-handle-404-responses)
 
 ## 🎥 Video Resources

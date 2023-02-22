@@ -25,9 +25,7 @@
 - [Express Status Codes](./3-prodigies/1-express-status-codes/README.md)
 - [Basic Authentication](./3-prodigies/2-basic-authentication/README.md)
 - [GraphQL - Setup](./3-prodigies/3-graphql-setup/README.md)
-GraphQL - Queries
-GraphQL - Mutations
-Other topics to explore with GraphQL
-GraphQL - Types & Schemas
-GraphQL - Auth Directives
+- [GraphQL - Queries](./3-prodigies/4-graphql-queries/README.md)
+- [GraphQL - Mutations](./3-prodigies/5-graphql-mutations/README.md)
+- [GraphQL - Further Topics to Explore](./3-prodigies/6-graphql-topics/README.md)
 

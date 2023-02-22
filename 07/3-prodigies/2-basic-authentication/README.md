@@ -69,7 +69,7 @@ With the middleware, we check if the username and password match our desired cre
 
 Note that this is a very basic example and in practice, you should use a more secure method of authentication, like OAuth or JSON Web Tokens (JWT). Also, be careful not to send the credentials in plain text. Instead, use HTTPS to encrypt the connection.
 
-## 📚 Documentation
+## #checkoutTheDocs 🔍
 - [HTTP authentication](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication)
 - [Basic access authentication](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication#Basic_authentication_scheme)
 - [Base 64 Encoding Tool](https://www.base64decode.org/)
