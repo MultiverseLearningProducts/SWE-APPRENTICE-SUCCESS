@@ -14,8 +14,8 @@
 - [Express Routers](./1-primers/10-express-routers/README.md)
 
 ## Level 2 - Progressors
-Query Parameters
-Server Side Validation (Stretch?)
+- [Query Parameters](./2-progressors/1-query-parameters/README.md)
+- [Server Side Validation](./2-progressors/2-server-side-validation/README.md)
 Pagination
 Filtering and Sorting
 Error Handling with Express
