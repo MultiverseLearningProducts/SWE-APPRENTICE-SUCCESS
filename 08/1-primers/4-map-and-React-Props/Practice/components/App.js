@@ -1,22 +1,21 @@
 import React from "react";
+import "../style.css"
 
-// Import components here
 
 
-function App() {
+function App() {    
     return(
         <div className = "page">
-            <h1 id = "title">Map and Props</h1>
+            <h1 id = "title">Mapping Our Yearbook</h1>
             <div className="app">
                 {/* Render all components here */}
+                
+                
 
 
-
-
-
+                
             </div>
-        </div>
-        
+        </div>   
     )
 }
 

@@ -1,0 +1,100 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 18rem;
+    margin: 1rem;
+    color: black;
+    text-align: center;
+}
+  
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+.app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.quote {
+    font-style: italic;
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    margin: 2rem;
+    font-size: 5rem;
+}
+
+html, #root{
+    background-color: #64ABFE;
+    color: #FFF;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #696969;
+    margin: 0.25rem;
+    padding: 0.25rem;
+    text-transform: lowercase;
+    font-size: 1.6em;
+}
+
+.btn.third {
+    width: calc(33.333% - 0.5rem);
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+
+.btn:hover{
+    background-color: #c9c9c9;
+    color: #FFF;
+}
+
+#title
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+  font-size: 5rem;
+  text-align: center;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
