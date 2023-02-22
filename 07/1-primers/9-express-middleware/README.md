@@ -51,6 +51,4 @@ app.use((req, res, next) => {
 ```
 
 ## #checkoutTheDocs 🔍
-
-
-## Video Resources 🎥
+- [Express Middleware](https://expressjs.com/en/guide/using-middleware.html)

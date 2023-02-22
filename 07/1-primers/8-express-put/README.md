@@ -49,6 +49,4 @@ We use the `findByPk()` method to find the superhero with the ID specified in th
 Writing PUT routes in Express is similar to writing POST routes, but a bit more complex. The main difference is that we use the `app.put()` method instead of the `app.post()` method, and we use the `findByPk()` method to find the superhero we want to update instead of the `create()` method.
 
 ## #checkoutTheDocs 🔍
-
-
-## Video Resources 🎥
+- [Express: app.put()](https://expressjs.com/en/4x/api.html#app.put.method)

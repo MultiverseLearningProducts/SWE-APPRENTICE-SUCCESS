@@ -31,5 +31,3 @@ Now, we can send a `POST` request to the `/superheroes` route with a JSON payloa
 
 ## #checkoutTheDocs 🔍
 - [Express app.post() method](http://expressjs.com/en/5x/api.html#app.post.method)
-
-## Video Resources 🎥

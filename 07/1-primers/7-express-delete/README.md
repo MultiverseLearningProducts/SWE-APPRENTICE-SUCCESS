@@ -31,6 +31,4 @@ app.listen(3000, () => {
 We use the `findByPk()` method to find the superhero with the ID specified in the URL. If the superhero doesn't exist, we return a 404 status code and a message. Otherwise, we call the `destroy()` method on the superhero to delete it from the database.
 
 ## #checkoutTheDocs 🔍
-
-
-## Video Resources 🎥
+- [Express: app.delete()](https://expressjs.com/en/4x/api.html#app.delete.method)
