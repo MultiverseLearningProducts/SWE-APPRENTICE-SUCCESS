@@ -19,7 +19,7 @@
 - [Pagination](./2-progressors/3-pagination/README.md)
 - [Filtering and Sorting](./2-progressors/4-filtering-and-sorting/README.md)
 - [Error Handling with Express](./2-progressors/5-error-handling/README.md)
-404 Handling with Express
+- [404 Handling with Express](./2-progressors/6-404-handling/README.md)
   
 ## Level 3 - Prodigies
 Express Status Codes
