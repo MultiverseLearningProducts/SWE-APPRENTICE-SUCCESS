@@ -1,0 +1,56 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+.app {
+    border-radius: 5px;
+    background-color: #242457;
+    padding: 20px;
+    margin: auto;
+    color: white;
+    text-align: left;
+    width: 50%;    
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.output {
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#root, html {
+    background-color: #64ABFF;
+}
+
+#title {
+    color: #242456;
+    text-align: center;
+    margin: 1.5rem;
+    font-size: 3rem;
+}
+
+textarea {
+    width: auto;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+#text {  
+    width: 100%;
+    margin-top: 20px;
+}

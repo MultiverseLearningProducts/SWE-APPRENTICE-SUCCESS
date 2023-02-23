@@ -1,22 +1,14 @@
 import React from "react";
-
-// Import components here
-
-
+import "./style.css"
+import Form from "./components/Form";
 function App() {
     return(
         <div className = "page">
-            <h1 id = "title">Controlled Inputs</h1>
+            <h1 id = "title">Tell Us About Yourself</h1>
             <div className="app">
-                {/* Render all components here */}
-
-
-
-
-
+                <Form />
             </div>
         </div>
-        
     )
 }
 
