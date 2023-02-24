@@ -1,0 +1,31 @@
+#root, html {
+    background-color: #DAC5A3;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 18rem;
+    text-align: center;
+    margin: 1.5rem;
+}
+  
+.house {
+    color: grey;
+    font-size: 18px;
+}
+
+.emoji {
+    font-size: 30px;
+}
+
+.characters {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#title {
+    font-family: 'Henny Penny', cursive;
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 5rem;
+}

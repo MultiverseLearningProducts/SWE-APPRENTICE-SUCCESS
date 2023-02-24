@@ -2,27 +2,31 @@ import React from "react";
 import { useEffect, useState } from "react";
 
 // Import components here
-
-
+import CharacterCard from "./components/CharacterCard"
+import "./style.css"
 function App() {
-    const [count, setCount] = useState(0);
+    const [characters, setCharacters] = useState([]);
+
+    async function handleRequest() {
+        const res = await fetch("https://hp-api.onrender.com/api/characters");
+        const data = await res.json();
+        setCharacters(data);
+    }
 
     useEffect(() => {
-        setTimeout(() => {
-            setCount(count => count + 1);
-        }, 1000)
+        handleRequest();
     }, [])
-
+    
     return(
         <div className = "page">
-            <h1 id = "title">The useEffect Hook 🪝</h1>
+            <h1 id = "title">Harry Potter Wiki</h1>
             <div className="app">
                 {/* Render all components here */}
-                <h3>{count}</h3>
-
-
-
-
+                <div className = "characters">
+                    {characters.map(char =>
+                        <CharacterCard data = {char}/>
+                    )}
+                </div>
             </div>
         </div>
         
