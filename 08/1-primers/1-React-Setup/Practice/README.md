@@ -1,5 +1,7 @@
 # Make a React Page
 
+> Since you are creating the `package.json` as part of this exercise, there are no unit tests. If you are able to create a React page that says "My First React Page!" then you have done everything correct 😀! 
+
 In this folder, complete the following:
 1. Use the command line to create a `package.json`.
 2. Use the command line to install:
