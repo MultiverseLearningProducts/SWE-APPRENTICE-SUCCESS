@@ -58,8 +58,7 @@ In order to generalize `useFetch`, we will do the following:
 2. We will update the state variable and updater function to be `data` and `setData` rather than the pokemon specific variables.
 3. The `url` variable will be added to the fetch call.
 4. The `setData` function will replace `setPokemon.
-5. `url` will be added as a dependency array so that `useFetch` is run whenever the `url` variable is changed.
-6. Finally, we return `data` so that the response data can be accessed in the component.
+5. Finally, we return `data` so that the response data can be accessed in the component.
 
 ### **`useFetch.js`**
 ```jsx
@@ -71,7 +70,7 @@ const useFetch = (url) => {
         fetch(url)
         .then((res) => res.json())
         .then((data) => setData(data));
-    }, [url]);
+    }, []);
 
     return data;
 }

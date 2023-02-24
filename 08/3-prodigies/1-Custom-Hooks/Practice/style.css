@@ -1,0 +1,46 @@
+#root, html {
+    background-color: #59D9A1;
+}
+
+#title {
+    color: #242456;
+    text-align: center;
+    font-size: 5rem;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+.app {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 1rem;
+}
+  
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+/* Add some padding inside the card container */
+#container {
+    padding: 2px 16px;
+    width: 25rem;
+    text-align: center;
+    
+}
+
+#fox  {
+    max-width: 20rem;
+}
+
+#pokemon {
+    width: 75%;
+}
+
