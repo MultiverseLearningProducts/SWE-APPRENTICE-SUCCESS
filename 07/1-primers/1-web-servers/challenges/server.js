@@ -23,8 +23,6 @@ Check out our creatures:
 // YOUR CODE HERE
 
 
-app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
-});
+// NOTE: Don't start the server with `app.listen` here. We export the app and we'll start it in the tests.
 
 export default app;
