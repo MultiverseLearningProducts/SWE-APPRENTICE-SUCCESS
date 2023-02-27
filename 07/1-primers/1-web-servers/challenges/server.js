@@ -1,14 +1,14 @@
 import express from 'express';
-import path from 'path';
 
 const app = express();
-const PORT = 3000;
 
 
 /* 
-You are building a website to showcase a collection of fantasy creatures. Create an Express web server that serves static files from the `public` folder. 
+You are building a website to showcase a collection of fantasy creatures. 
 
-For example, if a user visits http://localhost:3000, they should see something like:
+On this Express web server, when a user visits the root route (/), display a welcome message along with links to the creatures' pages.
+
+For example, if a user visits http://localhost:3000, they should see:
 
 Welcome to the Fantasy Creatures Collection!
 
@@ -18,11 +18,11 @@ Check out our creatures:
 - <a href="/griffins.html">Griffins</a>
 
 */
-// 👇👇👇👇 serve the static files in the `public` folder
+
+// 👇👇👇👇 define a route handler for the default `/` route (home page)
 
 // YOUR CODE HERE
 
 
-// NOTE: Don't start the server with `app.listen` here. We export the app and we'll start it in the tests.
 
 export default app;
