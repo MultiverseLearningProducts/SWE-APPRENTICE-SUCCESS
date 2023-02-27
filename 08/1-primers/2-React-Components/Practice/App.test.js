@@ -67,11 +67,11 @@ test("Bbq component is rendered in the Menu.", () => {
     expect(instance.findByType(Bbq)).toBeTruthy();
 })
 
-test("Bbq component has an h5 element with 'Bbq Slice'.", () => {
+test("Bbq component has an h5 element with 'BBQ Chicken'.", () => {
     const component = renderer.create(<Bbq/>);
     const instance = component.root;
 
     const h5 = instance.findByType("h5");
 
-    expect(h5.children.includes("Bbq Slice")).toBe(true);
+    expect(h5.children.includes("BBQ Chicken")).toBe(true);
 })
