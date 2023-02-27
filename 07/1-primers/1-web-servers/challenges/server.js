@@ -25,4 +25,6 @@ Check out our creatures:
 
 
 
+// NOTE: Do not start the server with app.listen() here. We will do that in the test file.
+
 export default app;
