@@ -1,5 +1,5 @@
-const request = require('supertest');
-const app = require('./server');
+import request from 'supertest';
+import app from './server';
 
 describe('GET /', () => {
   it('should return the welcome message and links to the creatures', (done) => {
