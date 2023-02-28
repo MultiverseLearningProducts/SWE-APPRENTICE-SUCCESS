@@ -1,5 +1,5 @@
 // import useState
-
+import React from "react";
 // import Character component
 
 
