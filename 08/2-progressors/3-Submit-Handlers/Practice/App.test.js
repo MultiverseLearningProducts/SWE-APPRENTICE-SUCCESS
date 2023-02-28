@@ -46,3 +46,19 @@ test('Character updates with state stored in superpower dropdown when form is su
     // Check that it updates the screen with the correct value
     expect(screen.getByText("Superpower: 💨" )).toBeTruthy();
 })
+
+test('Character updates with state stored in icon dropdown when form is submitted', () => {
+    const { getByTestId, getAllByTestId } = render(<App />);
+    //The value should be the key of the option
+    fireEvent.change(getByTestId('select-icon'), { target: { value: "😎" } })
+    let options = getAllByTestId('select-option')
+    // Check that it has selected the correct value
+    expect(options[0].selected).toBeFalsy();
+    expect(options[1].selected).toBeFalsy();
+    expect(options[2].selected).toBeTruthy();
+
+    const form = screen.getByLabelText('form');
+    fireEvent.submit(form);
+    // Check that it updates the screen with the correct value
+    expect(screen.getByText("Icon: 😎" )).toBeTruthy();
+})
