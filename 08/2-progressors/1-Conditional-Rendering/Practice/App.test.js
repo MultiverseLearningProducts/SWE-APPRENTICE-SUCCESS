@@ -1,12 +1,24 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { render, screen } from '@testing-library/react'
 import App  from './App';
+import Login from './components/Login';
 
-test("App component renders with h1 title of 'Shopping List'.", () => {
-    const component = renderer.create(<App/>);
-    const instance = component.root;
+test('Login component renders with Login button when isRegistered is false and Welcome Back! when isRegestered is true', () => {
+    render(<Login isRegistered = {false} />);
+    expect(screen.getByText('Login')).toBeTruthy();
 
-    const h1 = instance.findByType("h1");
+    render(<Login isRegistered = {true} />);
+    expect(screen.getByText('Welcome Back!')).toBeTruthy();
+})
 
-    expect(h1.children.includes('Shopping List 📝')).toBe(true);
+test('Item components only renders when login state is true', () => {
+    render(<App />);
+    expect(screen.getByText('Bananas')).toBeTruthy();
+    expect(screen.getByText('Canned Soup')).toBeTruthy();
+})
+
+test('Item components render a ❄️ for items with a prop of refrigerate that is true', () => {
+    render(<App />);
+    expect(screen.getByText('Ice Cream ❄️')).toBeTruthy();
+    expect(screen.getByText('Cheese ❄️')).toBeTruthy();
 })

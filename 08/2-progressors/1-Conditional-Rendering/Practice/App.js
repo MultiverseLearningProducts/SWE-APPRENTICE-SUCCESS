@@ -20,7 +20,7 @@ function App() {
                     <ul className="list">
                         <Item name = "Ice Cream" refrigerate ={true}/>
                         <Item name = "Cheese" refrigerate ={true}/>
-                        <Item name = "Milk" refrigerate ={false}/>
+                        <Item name = "Milk" refrigerate ={true}/>
                         <Item name = "Butter" refrigerate ={false}/>
                         <Item name = "Bread" refrigerate ={true}/>
                         <Item name = "Noodles" refrigerate ={false}/>
