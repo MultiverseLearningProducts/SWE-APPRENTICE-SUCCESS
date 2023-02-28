@@ -1,3 +1,5 @@
+import fetch from "node-fetch";
+
 /* 
 These exercises are optional, since we have not yet covered the fetch() API. If you would like to run the tests, remove the `.skip` from the `describe` blocks in the test file.
 
