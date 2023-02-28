@@ -2,8 +2,8 @@ import React from "react";
 import "../style.css"
 function Cat(){
     return( 
-        <div class="card">
-            <img src = ""/>
+        <div className="card">
+            <img src = "" alt = "cat"/>
         </div>    
     )
 }
