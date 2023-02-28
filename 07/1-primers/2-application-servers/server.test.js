@@ -1,5 +1,5 @@
 import request from 'supertest';
-import app, { creatures } from './app';
+import app, { creatures } from './server';
 
 describe('GET /creatures', () => {
   it('should return a 200 status code', async () => {
