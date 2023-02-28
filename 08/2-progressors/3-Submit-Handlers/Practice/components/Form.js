@@ -28,11 +28,11 @@ function Form() {
                 required
             ></textarea>
             <label>Superpower:</label>
-            <select>
-                <option value="🔥">🔥</option>
-                <option value="💨">💨</option>
-                <option value="⚡️">⚡️</option>
-                <option value="️️🌪️">🌪️</option>
+            <select data-testid="select-power">
+                <option data-testid = "power-option" value="🔥">🔥</option>
+                <option data-testid = "power-option" value="💨">💨</option>
+                <option data-testid = "power-option" value="⚡️">⚡️</option>
+                <option data-testid = "power-option" value="️️🌪️">🌪️</option>
             </select>
             <label>Icon:</label>
             <select>
