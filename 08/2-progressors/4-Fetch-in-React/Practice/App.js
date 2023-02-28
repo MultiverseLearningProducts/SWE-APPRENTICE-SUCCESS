@@ -16,7 +16,7 @@ function App() {
         <div className = "page">
             <h1 id = "title">😻 Meowspace 😻</h1>
             <div className="app">
-                <div class = "buttonContainer">
+                <div className = "buttonContainer">
                     <button className = "button">Give me a cat!</button>
                 </div>
                 <div id = "pictureCard">
