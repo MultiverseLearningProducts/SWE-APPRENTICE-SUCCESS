@@ -17,7 +17,7 @@ function Form() {
 
     return (
     <div className="create">
-        <form>
+        <form aria-label="form">
             <label>Character Name:</label>
             <input 
                 type="text" 
@@ -35,12 +35,12 @@ function Form() {
                 <option data-testid = "power-option" value="️️🌪️">🌪️</option>
             </select>
             <label>Icon:</label>
-            <select>
-                <option value="😀">😀</option>
-                <option value="🥹">🥹</option>
-                <option value="😎">😎</option>
-                <option value="🫡">🫡</option>
-                <option value="🧐">🧐</option>
+            <select data-testid="select-icon">
+                <option data-testid = "select-option" value="😀">😀</option>
+                <option data-testid = "select-option" value="🥹">🥹</option>
+                <option data-testid = "select-option" value="😎">😎</option>
+                <option data-testid = "select-option" value="🫡">🫡</option>
+                <option data-testid = "select-option" value="🧐">🧐</option>
             </select>
             <button>Create Character</button>
         </form>

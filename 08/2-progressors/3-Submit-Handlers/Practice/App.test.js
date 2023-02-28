@@ -22,10 +22,27 @@ test('Form state is updated as user updates the form', () => {
     fireEvent.change(input, {target: {value: name}});
     fireEvent.change(textarea, {target: {value: description}});
 
-    const form = result.container.querySelector('form');
+    const form = screen.getByLabelText('form');
     fireEvent.submit(form);
 
     // expect the words to show below
     expect(screen.getByText("Sully the Giant")).toBeTruthy();
     expect(screen.getByText("Fights scary wizards")).toBeTruthy();
+})
+
+
+test('Character updates with state stored in superpower dropdown when form is submitted', () => {
+    const { getByTestId, getAllByTestId } = render(<App />);
+    //The value should be the key of the option
+    fireEvent.change(getByTestId('select-power'), { target: { value: "💨" } })
+    let options = getAllByTestId('power-option')
+    // Check that it has selected the correct value
+    expect(options[0].selected).toBeFalsy();
+    expect(options[1].selected).toBeTruthy();
+    expect(options[2].selected).toBeFalsy();
+
+    const form = screen.getByLabelText('form');
+    fireEvent.submit(form);
+    // Check that it updates the screen with the correct value
+    expect(screen.getByText("Superpower: 💨" )).toBeTruthy();
 })
