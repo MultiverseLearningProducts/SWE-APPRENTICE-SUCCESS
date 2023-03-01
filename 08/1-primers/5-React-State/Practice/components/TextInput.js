@@ -12,7 +12,7 @@ function TextInput() {
                 <h5 className="card-title">Current Text: </h5>
                 <input 
                     type="text" 
-                    class="form-control" 
+                    className="form-control" 
                     id="inputText" 
                     placeholder="Enter some text"
                     // Create onChange function here that updates text to the current value of this input element.

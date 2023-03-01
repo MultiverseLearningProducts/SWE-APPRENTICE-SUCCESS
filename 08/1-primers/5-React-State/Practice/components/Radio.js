@@ -11,9 +11,9 @@ function Radio() {
             <div className="card-body">
                 {/* Output radioVal state here */}
                 <h5 className="card-title">Radio Value: </h5>
-                <div class="form-check">
+                <div className="form-check">
                     <input 
-                        class="form-check-input" 
+                        className="form-check-input" 
                         type="radio" 
                         name="flexRadioDefault" 
                         id="flexRadioDefault1"
@@ -22,13 +22,13 @@ function Radio() {
 
 
                         />
-                    <label class="form-check-label" for="flexRadioDefault1">
+                    <label className="form-check-label" for="flexRadioDefault1">
                         1
                     </label>
                 </div>
-                <div class="form-check">
+                <div className="form-check">
                     <input 
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio" 
                         name="flexRadioDefault" 
                         id="flexRadioDefault2"
@@ -37,13 +37,13 @@ function Radio() {
 
 
                     />
-                    <label class="form-check-label" for="flexRadioDefault2">
+                    <label className="form-check-label" for="flexRadioDefault2">
                         2
                     </label>
                 </div>
-                <div class="form-check">
+                <div className="form-check">
                     <input 
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio" 
                         name="flexRadioDefault" 
                         id="flexRadioDefault3"
@@ -52,13 +52,13 @@ function Radio() {
 
 
                     />
-                    <label class="form-check-label" for="flexRadioDefault3">
+                    <label className="form-check-label" for="flexRadioDefault3">
                         3
                     </label>
                 </div>
-                <div class="form-check">
+                <div className="form-check">
                     <input 
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio" 
                         name="flexRadioDefault" 
                         id="flexRadioDefault4"
@@ -67,7 +67,7 @@ function Radio() {
 
                         
                     />
-                    <label class="form-check-label" for="flexRadioDefault4">
+                    <label className="form-check-label" for="flexRadioDefault4">
                         4
                     </label>
                 </div>

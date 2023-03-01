@@ -11,12 +11,12 @@ function Slider() {
             <div className="card-body">
             {/* Output slideVal state here */}
             <h5 className="card-title">Slider Value: </h5>
-                <div class="slidecontainer">
+                <div className="slidecontainer">
                     <input 
                     type="range" 
                     min="1" 
                     max="100" 
-                    class="slider" 
+                    className="slider" 
                     id="myRange"
                     // Update slideVal state here
                     
