@@ -8,7 +8,7 @@ function PokemonCard() {
 
 
     return(
-        <div class="card">
+        <div className="card">
             <div id="container">
                 <h4><b>POKEMON_NAME</b></h4>
                 {/* Render shiny_front sprite image if present */}

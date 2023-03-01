@@ -4,7 +4,7 @@ function DadJoke() {
 
 
     return(
-        <div class="card">
+        <div className="card">
             <div id="container">
                 <h4>Random Dad Joke</h4>
                 <p>DAD_JOKE_HERE</p>

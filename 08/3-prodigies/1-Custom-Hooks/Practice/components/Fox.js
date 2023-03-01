@@ -6,7 +6,7 @@ function Fox() {
     
 
     return(
-        <div class="card">
+        <div className="card">
             <div id="container">
             <h2>Random Fox</h2>
             {/* Render img element here */}
