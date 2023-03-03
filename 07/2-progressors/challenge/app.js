@@ -1,7 +1,7 @@
 import express from 'express';
 
 // database and the NobleHouse model
-import { db, NobleHouse } from './db';
+import { db, NobleHouse, Guest } from './db';
 
 // Create the Express app
 const app = express();
