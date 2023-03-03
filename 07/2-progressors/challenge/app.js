@@ -1,6 +1,7 @@
 import express from 'express';
 import { body, validationResult } from "express-validator";
 import _ from 'lodash';
+import { Op } from 'sequelize';
 
 // database and the NobleHouse model
 import { db, NobleHouse, Guest } from './db';
@@ -77,9 +78,29 @@ Considerations:
 
 
 /*
-Filtering and Sorting: The Royal Court is interested in tracking the success and failures of their noble houses over time. They have asked you to create an application that can filter and sort the houses based on various criteria, such as wealth, military power, and diplomatic ties.
+Filtering and Sorting: The Royal Court wants to be able to find like-minded nobles quickly and easily. They have asked you to refactor this API route so that it that can filter and sort the houses based on query parameters `sigil` and `words`. 
+
+Considerations:
+- The query parameters should be optional and the default sort should be by `id` in ascending order.
+- Results should be returned even if the parameters are found within the `sigil` or `words` fields, not only if they are an exact match. (Hint: Array.prototype.includes() will be very helpful here) 
 👇👇👇 YOUR CODE for Filtering and Sorting 👇👇👇
 */
+// GET /noblehouses/search?sigil=blue&words=Fire&sort=words&order=DESC
+app.get('/noblehouses/search', async (req, res) => {
+  // 👇👇👇 YOUR CODE: add `sigil` and `words` to the where clause if they exist on req.query 👇👇👇
+  
+
+
+
+
+  const houses = await NobleHouse.findAll({
+    // 👇👇👇 YOUR CODE: add `where` and `order` to the options object 👇👇👇
+    
+    
+  });
+
+  res.send(houses);
+});
 
 
 /*

@@ -141,4 +141,52 @@ describe('Royal API', () => {
     });
   });
 
+  describe('GET /noblehouses/search', () => {
+    test('It should return a list of houses sorted by id in ascending order', async () => {
+      const response = await request(app).get('/noblehouses/search');
+      expect(response.statusCode).toBe(200);
+      expect(response.body).toHaveLength(10);
+      expect(response.body[0].id).toBe(1);
+      expect(response.body[9].id).toBe(10);
+    });
+  
+    test('It should return a list of houses sorted by name in ascending order', async () => {
+      const response = await request(app).get('/noblehouses/search?sort=name');
+      expect(response.statusCode).toBe(200);
+      expect(response.body).toHaveLength(10);
+      expect(response.body[0].name).toBe('House Arryn');
+      expect(response.body[4].name).toBe('House Lannister');
+    });
+  
+    test('It should return a list of houses sorted by name in descending order', async () => {
+      const response = await request(app).get('/noblehouses/search?sort=name&order=DESC');
+      expect(response.statusCode).toBe(200);
+      expect(response.body).toHaveLength(10);
+      expect(response.body[0].name).toBe('House Tyrell');
+      expect(response.body[4].name).toBe('House Martell');
+    });
+  
+    test('It should return a list of houses filtered by sigil', async () => {
+      const response = await request(app).get('/noblehouses/search?sigil=blue');
+      expect(response.statusCode).toBe(200);
+      expect(response.body).toHaveLength(3);
+      expect(response.body[0].name).toBe('House Arryn');
+      expect(response.body[1].name).toBe('House Tully');
+    });
+  
+    test('It should return a list of houses filtered by words', async () => {
+      const response = await request(app).get('/noblehouses/search?words=unbowed');
+      expect(response.statusCode).toBe(200);
+      expect(response.body).toHaveLength(1);
+      expect(response.body[0].name).toBe('House Martell');
+    });
+  
+    test('It should return a list of houses filtered by sigil and words', async () => {
+      const response = await request(app).get('/noblehouses/search?sigil=black&words=fire');
+      expect(response.statusCode).toBe(200);
+      expect(response.body).toHaveLength(1);
+      expect(response.body[0].name).toBe('House Targaryen');
+    });
+  });
+
 });

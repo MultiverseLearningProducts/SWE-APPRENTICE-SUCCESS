@@ -34,9 +34,6 @@ export const NobleHouse = db.define('noblehouse', {
   region: {
     type: Sequelize.STRING,
   },
-  founded: {
-    type: Sequelize.DATEONLY,
-  },
 }, {
   timestamps: false,
 });
