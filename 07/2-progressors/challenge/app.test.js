@@ -189,4 +189,12 @@ describe('Royal API', () => {
     });
   });
 
+  describe('404 Handling - catch-all middleware', () => {
+    it('should return a 404 for an unknown route', async () => {
+      const response = await request(app)
+        .get('/unknown/route')
+        .expect(404);
+    });
+  });
+
 });

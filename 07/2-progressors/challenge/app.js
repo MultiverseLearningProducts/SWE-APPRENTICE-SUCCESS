@@ -104,14 +104,14 @@ app.get('/noblehouses/search', async (req, res) => {
 
 
 /*
-Error Handling with Express: The Royal Court has recently experienced several instances of data corruption and loss due to faulty error handling. They need an application that can handle errors gracefully and prevent data loss. You have been tasked with creating an application that can handle errors with Express.
-👇👇👇 YOUR CODE for Error Handling with Express 👇👇👇
+404 Handling with Express: The Royal Court is experiencing an increase in attempted data breaches and they are concerned about hackers gaining access to their data. They need an application that can handle 404 errors in a way that does not provide sensitive information to potential attackers. You have been tasked with creating an application that can handle 404 errors with Express. Create a catch-all middleware that sends back a 404 status code.
+👇👇👇 YOUR CODE for 404 Handling with Express 👇👇👇
 */
 
 
 /*
-404 Handling with Express: The Royal Court is experiencing an increase in attempted data breaches and they are concerned about hackers gaining access to their data. They need an application that can handle 404 errors in a way that does not provide sensitive information to potential attackers. You have been tasked with creating an application that can handle 404 errors with Express.
-👇👇👇 YOUR CODE for 404 Handling with Express 👇👇👇
+Error Handling with Express: The Royal Court has recently experienced several instances of data corruption and loss due to faulty error handling. They need an application that can handle errors gracefully and prevent data loss. You have been tasked with creating an Express error handling middleware.
+👇👇👇 YOUR CODE for Error Handling with Express 👇👇👇
 */
 
 

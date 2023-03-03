@@ -13,10 +13,10 @@ const app = express();
 // ...
 
 // 404 handler defined last
-app.use((req, res, next) {
-  const error = new Error('Page not found');
-  error.status = 404;
-  next(error);
+app.use((req, res, next) => {
+  res
+    .status(404)
+    .send('Page not found');
 });
 
 ```
