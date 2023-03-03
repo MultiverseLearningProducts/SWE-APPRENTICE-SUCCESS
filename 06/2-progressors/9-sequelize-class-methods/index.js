@@ -64,7 +64,29 @@ const Potion = db.define('potion', {
 Ingredient.belongsToMany(Potion, { through: 'PotionIngredients' });
 Potion.belongsToMany(Ingredient, { through: 'PotionIngredients' });
 
-// 👇👇👇 DEFINE Potion.getIngredients CLASS METHOD HERE 👇👇👇
+// 👇👇👇 DEFINE CLASS METHOD Potion.getIngredients HERE 👇👇👇
+
+
+
+
+
+/* 
+
+Assume the provided model is Potion with the following properties:
+
+name (string)
+price (decimal)
+quantity (integer)
+Define an instance method on the Potion model that returns the total value of the potion. The total value should be determined by the following formula:
+
+Write the Potion model definition with the instance method, and a test suite for the instance method.
+
+
+
+*/
+// 👇👇👇 DEFINE INSTANCE METHOD Potion.getTotalValue HERE 👇👇👇
+
+
 
 
 
@@ -73,3 +95,5 @@ export {
   Ingredient,
   Potion,
 }
+
+

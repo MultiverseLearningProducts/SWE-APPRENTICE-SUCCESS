@@ -18,3 +18,6 @@ Superhero.averageAge().then(averageAge => {
   console.log(`The average age of all superheroes is ${averageAge}`);
 });
 ```
+
+## Note About Challenges 🏆
+You'll notice there are two challenges in the file. They are in the same file since the test suite needs to be run together. The first challenge is for class methods (this topic), and the second challenge is for instance methods (the next topic). **_Move on to the instance methods lesson_ before completing the second challenge**.
