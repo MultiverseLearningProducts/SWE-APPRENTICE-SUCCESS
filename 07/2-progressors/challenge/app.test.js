@@ -111,7 +111,7 @@ describe('Royal API', () => {
 
   describe('Pagination - GET /noblehouses', () => {
   
-    test('GET /noblehouses returns the first page of noble houses with default page size', async () => {
+    it('GET /noblehouses returns the first page of noble houses with default page size', async () => {
       const res = await request(app).get('/noblehouses');
       expect(res.status).toBe(200);
       expect(res.body.page).toBe(1);
@@ -121,7 +121,7 @@ describe('Royal API', () => {
       expect(res.body.nobleHouses[0].name).toBe(nobleHouses[0].name);
     });
   
-    test('GET /noblehouses?page=2&pageSize=3 returns the second page of noble houses with page size of 3', async () => {
+    it('GET /noblehouses?page=2&pageSize=3 returns the second page of noble houses with page size of 3', async () => {
       const res = await request(app).get('/noblehouses?page=2&pageSize=3');
       expect(res.status).toBe(200);
       expect(res.body.page).toBe(2);
@@ -131,7 +131,7 @@ describe('Royal API', () => {
       expect(res.body.nobleHouses[0].name).toBe('House Baratheon');
     });
   
-    test('GET /noblehouses?page=5 returns an empty list for page 5', async () => {
+    it('GET /noblehouses?page=5 returns an empty list for page 5', async () => {
       const res = await request(app).get('/noblehouses?page=5');
       expect(res.status).toBe(200);
       expect(res.body.page).toBe(5);
@@ -142,7 +142,7 @@ describe('Royal API', () => {
   });
 
   describe('GET /noblehouses/search', () => {
-    test('It should return a list of houses sorted by id in ascending order', async () => {
+    it('It should return a list of houses sorted by id in ascending order', async () => {
       const response = await request(app).get('/noblehouses/search');
       expect(response.statusCode).toBe(200);
       expect(response.body).toHaveLength(10);
@@ -150,7 +150,7 @@ describe('Royal API', () => {
       expect(response.body[9].id).toBe(10);
     });
   
-    test('It should return a list of houses sorted by name in ascending order', async () => {
+    it('It should return a list of houses sorted by name in ascending order', async () => {
       const response = await request(app).get('/noblehouses/search?sort=name');
       expect(response.statusCode).toBe(200);
       expect(response.body).toHaveLength(10);
@@ -158,7 +158,7 @@ describe('Royal API', () => {
       expect(response.body[4].name).toBe('House Lannister');
     });
   
-    test('It should return a list of houses sorted by name in descending order', async () => {
+    it('It should return a list of houses sorted by name in descending order', async () => {
       const response = await request(app).get('/noblehouses/search?sort=name&order=DESC');
       expect(response.statusCode).toBe(200);
       expect(response.body).toHaveLength(10);
@@ -166,7 +166,7 @@ describe('Royal API', () => {
       expect(response.body[4].name).toBe('House Martell');
     });
   
-    test('It should return a list of houses filtered by sigil', async () => {
+    it('It should return a list of houses filtered by sigil', async () => {
       const response = await request(app).get('/noblehouses/search?sigil=blue');
       expect(response.statusCode).toBe(200);
       expect(response.body).toHaveLength(3);
@@ -174,14 +174,14 @@ describe('Royal API', () => {
       expect(response.body[1].name).toBe('House Tully');
     });
   
-    test('It should return a list of houses filtered by words', async () => {
+    it('It should return a list of houses filtered by words', async () => {
       const response = await request(app).get('/noblehouses/search?words=unbowed');
       expect(response.statusCode).toBe(200);
       expect(response.body).toHaveLength(1);
       expect(response.body[0].name).toBe('House Martell');
     });
   
-    test('It should return a list of houses filtered by sigil and words', async () => {
+    it('It should return a list of houses filtered by sigil and words', async () => {
       const response = await request(app).get('/noblehouses/search?sigil=black&words=fire');
       expect(response.statusCode).toBe(200);
       expect(response.body).toHaveLength(1);
@@ -197,4 +197,14 @@ describe('Royal API', () => {
     });
   });
 
+  describe.only('error handling middleware', () => {
+    it('should return 500 for errors, with message `Mighty sorry old chap. Something has gone a pity wrong.`', async () => {
+      const response = await request(app).get('/errorcheck');
+  
+      expect(response.status).toBe(500);
+      expect(response.body).toEqual({ message: 'Mighty sorry old chap. Something has gone a pity wrong.' });
+  
+      jest.spyOn(NobleHouse, 'findAll').mockRestore();
+    });
+  });
 });

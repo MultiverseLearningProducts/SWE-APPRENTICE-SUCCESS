@@ -110,11 +110,14 @@ app.get('/noblehouses/search', async (req, res) => {
 
 
 /*
-Error Handling with Express: The Royal Court has recently experienced several instances of data corruption and loss due to faulty error handling. They need an application that can handle errors gracefully and prevent data loss. You have been tasked with creating an Express error handling middleware.
-👇👇👇 YOUR CODE for Error Handling with Express 👇👇👇
+Error Handling with Express: The Royal Court has recently experienced several instances of data corruption and loss due to faulty error handling. They need an application that can handle errors gracefully and prevent data loss. You have been tasked with creating an Express error handling middleware. When an error is thrown, return a status of 500 aiwth a message of "Mighty sorry old chap. Something has gone a pity wrong."
 */
+// This route is for testing purposes only. Do not modify it.
+app.get('/errorcheck', (req, res, next) => {
+  next(new Error('This is an error'));
+});
 
-
+// 👇👇👇 YOUR CODE for Error Handling with Express 👇👇👇
 
 
 
