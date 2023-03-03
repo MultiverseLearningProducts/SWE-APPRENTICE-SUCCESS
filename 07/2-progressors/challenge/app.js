@@ -1,4 +1,6 @@
 import express from 'express';
+import { body, validationResult } from "express-validator";
+import _ from 'lodash';
 
 // database and the NobleHouse model
 import { db, NobleHouse, Guest } from './db';
@@ -13,13 +15,28 @@ app.use(express.json());
 Query Parameters: The Royal Court is hosting a grand feast and they need a way to display the guests in different categories, such as age, occupation, and status. They have tasked you with creating an application that can filter the guests based on these categories using query parameters.
 👇👇👇 YOUR CODE for Query Parameters 👇👇👇
 */
+// GET /guests?age=35&occupation=Knight&status=Accepted
 
 
 /*
-Server Side Validation: The Royal Court has become increasingly concerned with the security of their data. They need an application that can validate incoming data and prevent malicious actors from tampering with their system. You have been tasked with creating an application that performs server-side validation on incoming requests.
-👇👇👇 YOUR CODE for Server Side Validation 👇👇👇
+Server Side Validation: The Royal Court has become increasingly concerned with the security of their data. Using express-validator, the queen wants you to protect this route by confirming that `name` is not empty and `age` is an integer.
 */
+// POST /guests
+app.post(
+  '/guests',
+  // 👇👇👇 YOUR CODE (middleware) for Server Side Validation 👇👇👇
 
+
+  async (req, res) => {const errors = validationResult(req);
+    // 👇👇👇 YOUR CODE (error handling) for Server Side Validation 👇👇👇
+    
+
+
+    const { name, age, occupation, status } = req.body;
+    const guest = await Guest.create({ name, age, occupation, status });
+    res.send(guest);
+  }
+);
 
 /*
 Pagination: The Royal Court is expanding its operations and the amount of data they need to manage is growing exponentially. They have tasked you with creating an application that can handle pagination of data in a clean and efficient way.

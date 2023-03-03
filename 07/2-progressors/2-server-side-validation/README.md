@@ -99,6 +99,8 @@ Now, if we try to save a superhero with invalid data, Sequelize will throw an er
 
 Any one of these approaches can be used to validate user input. However, it's important to note that they are not mutually exclusive. For example, we can use `express-validator` to validate the request body, and then use Sequelize validations to validate the data before saving it to the database.
 
+## Note About Challenges 🏆
+In [../challenge/app.js](../challenge/app.js), complete the `POST /guests` endpoint to pass the tests for Server Side Validation.
 ## #checkoutTheDocs 🔍
 - [express-validator documentation](https://express-validator.github.io/docs/)
 - [joi documentation](https://joi.dev/api/)

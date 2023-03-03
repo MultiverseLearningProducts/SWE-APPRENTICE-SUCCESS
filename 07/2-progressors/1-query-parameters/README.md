@@ -34,6 +34,9 @@ In this example, we create an Express route that retrieves superheroes from the 
 
 And that's it! With Express Query Parameters, you can now filter and modify the server's response to an HTTP request, just like a superhero would. 🦸‍♀️
 
+## Note About Challenges 🏆
+In [../challenge/app.js](../challenge/app.js), complete the `GET /guests` endpoint to pass the tests for Query Parameters.
+
 ## #checkoutTheDocs 🔍
 - [Express Query Parameters](https://expressjs.com/en/api.html#req.query)
 
