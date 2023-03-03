@@ -30,6 +30,42 @@ Create a GET endpoint at /creatures/:id that retrieves just one creature from th
 
 
 
+/*
+Do you have a mythical creature that you've been dying to add to our database? Look no further than this route! With just a simple POST request, you can add a brand new creature to our collection. Who knows, it might become the next big thing!
+Create a POST endpoint at /creatures that creates a new creature in the database and returns a JSON response with the creature that was just created.
+*/
+// 👇👇👇 YOUR CODE for `POST /creatures`
+
+
+
+
+
+
+
+
+/*
+After a long and treacherous journey, you have finally arrived at the cave of the ferocious dragon Smaug. You have one chance to defeat him and take his treasure. Luckily, you don't have to defeat him to get his treasure - you can just delete him from your database! 
+Create a DELETE endpoint at /creatures/:id that deletes a creature from the database with the specified ID and returns a success message as a JSON response.
+*/
+// 👇👇👇 YOUR CODE for `DELETE /creatures/:id`
+
+
+
+
+
+
+/*
+Have you discovered an error in one of our creatures' descriptions? Or maybe you've spotted a dragon with a new shade of scales? With this route, you can update any creature in our database with ease! Just send a PUT request with the updated information and let us take care of the rest.
+Create a PUT endpoint at /creatures/:id that updates a creature in the database and returns a JSON response with the updated creature.
+*/
+// 👇👇👇 YOUR CODE for `PUT /creatures/:id`
+
+
+
+
+
+
+
 
 
 
