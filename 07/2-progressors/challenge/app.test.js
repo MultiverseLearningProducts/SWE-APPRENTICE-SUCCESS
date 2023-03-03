@@ -197,7 +197,7 @@ describe('Royal API', () => {
     });
   });
 
-  describe.only('error handling middleware', () => {
+  describe('error handling middleware', () => {
     it('should return 500 for errors, with message `Mighty sorry old chap. Something has gone a pity wrong.`', async () => {
       const response = await request(app).get('/errorcheck');
   
