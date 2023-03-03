@@ -5,7 +5,7 @@ Write a function, `alligatorPromise` that takes no parameters and returns a Prom
 The function should generate a random integer between 1 and 4, to be used in the Promise that is returned.
 
 The Promise should...
-- Resolve with the string "Alligator!" after a random amount of time between 1 and 4 seconds has passed. 
+- Resolve with the string "Alligator!" after 200 ms.
 - However, if the random time is divisible by 2, the Promise should reject with the error "Oh no, it's a crocodile!" instead.
 
 */
