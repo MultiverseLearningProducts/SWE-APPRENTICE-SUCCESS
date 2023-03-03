@@ -13,7 +13,7 @@ export const db = new Sequelize({
   logging: false,
 });
 
-export const NobleHouse = sequelize.define('noblehouse', {
+export const NobleHouse = db.define('noblehouse', {
   id: {
     type: DataTypes.INTEGER,
     primaryKey: true,
@@ -41,7 +41,7 @@ export const NobleHouse = sequelize.define('noblehouse', {
   timestamps: false,
 });
 
-export const Guest = sequelize.define('guest', {
+export const Guest = db.define('guest', {
     name: {
       type: DataTypes.STRING,
       allowNull: false
