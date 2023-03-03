@@ -15,6 +15,10 @@ describe('Royal API', () => {
       { name: 'Joffrey Baratheon', age: 18, occupation: 'King of the Seven Kingdoms', status: 'Deceased' },
       { name: 'Tywin Lannister', age: 63, occupation: 'Lord of Casterly Rock', status: 'Deceased' },
     ]);
+  
+    // const nobleHouses = [      { name: 'Stark', words: 'Winter is Coming' },      { name: 'Lannister', words: 'Hear Me Roar' },      { name: 'Targaryen', words: 'Fire and Blood' },      { name: 'Baratheon', words: 'Ours is the Fury' },      { name: 'Tyrell', words: 'Growing Strong' },      { name: 'Greyjoy', words: 'We Do Not Sow' },      { name: 'Martell', words: 'Unbowed, Unbent, Unbroken' },    ];
+    
+    await NobleHouse.bulkCreate(nobleHouses);
   });
 
   afterAll(async () => {
@@ -102,6 +106,38 @@ describe('Royal API', () => {
         .expect(400);
 
       expect(response.body.errors).toBeTruthy();
+    });
+  });
+
+  describe('Pagination - GET /noblehouses', () => {
+  
+    test('GET /noblehouses returns the first page of noble houses with default page size', async () => {
+      const res = await request(app).get('/noblehouses');
+      expect(res.status).toBe(200);
+      expect(res.body.page).toBe(1);
+      expect(res.body.pageSize).toBe(10);
+      expect(res.body.totalPages).toBe(1);
+      expect(res.body.nobleHouses.length).toBe(nobleHouses.length);
+      expect(res.body.nobleHouses[0].name).toBe(nobleHouses[0].name);
+    });
+  
+    test('GET /noblehouses?page=2&pageSize=3 returns the second page of noble houses with page size of 3', async () => {
+      const res = await request(app).get('/noblehouses?page=2&pageSize=3');
+      expect(res.status).toBe(200);
+      expect(res.body.page).toBe(2);
+      expect(res.body.pageSize).toBe(3);
+      expect(res.body.totalPages).toBe(Math.floor(nobleHouses.length / 3) + 1);
+      expect(res.body.nobleHouses.length).toBe(3);
+      expect(res.body.nobleHouses[0].name).toBe('House Baratheon');
+    });
+  
+    test('GET /noblehouses?page=5 returns an empty list for page 5', async () => {
+      const res = await request(app).get('/noblehouses?page=5');
+      expect(res.status).toBe(200);
+      expect(res.body.page).toBe(5);
+      expect(res.body.pageSize).toBe(10);
+      expect(res.body.totalPages).toBe(1);
+      expect(res.body.nobleHouses.length).toBe(0);
     });
   });
 

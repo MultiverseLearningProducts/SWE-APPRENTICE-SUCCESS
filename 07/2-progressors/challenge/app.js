@@ -39,9 +39,41 @@ app.post(
 );
 
 /*
-Pagination: The Royal Court is expanding its operations and the amount of data they need to manage is growing exponentially. They have tasked you with creating an application that can handle pagination of data in a clean and efficient way.
-👇👇👇 YOUR CODE for Pagination 👇👇👇
-*/
+Pagination: The Royal Court is managing a large number of noble houses and they need an application that can handle pagination of the noble houses in a clean and efficient way. They have tasked you with refactoring this api route to paginate the noble houses based on query parameters `page` and `pageSize`. 
+
+Considerations:
+- If there are no query params passed in, the default values should be `page=1` and `pageSize=10`.
+- Return the data in this format: `{ page, pageSize, totalPages, nobleHouses }` where 
+  - `page` is the current page number
+  - `pageSize` is the number of noble houses per page
+  - `nobleHouses` is the resulting array of noble houses for the given page
+  - `totalPages` is the total number of pages when dividing the total number of noble houses by the page size.
+
+  */
+ // GET /noblehouses?page=1&pageSize=10
+ app.get('/noblehouses', async (req, res) => {
+  // 👇👇👇 YOUR CODE: page, pagesize and offset 👇👇👇
+  
+
+  
+
+  const nobleHouses = await NobleHouse.findAndCountAll({
+    // 👇👇👇 YOUR CODE: tell sequelize what limit and offset 👇👇👇
+    
+
+  });
+
+  // 👇👇👇 YOUR CODE: calculate totalPages 👇👇👇
+  
+
+  res.send({
+    nobleHouses: nobleHouses.rows,
+    // 👇👇👇 YOUR CODE: edit the following page, pageSize, totalPages and nobleHouses 👇👇👇
+    page: 1,
+    pageSize: 10,
+    totalPages: 100,
+  });
+});
 
 
 /*
