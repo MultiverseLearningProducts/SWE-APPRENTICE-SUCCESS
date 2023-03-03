@@ -35,3 +35,35 @@ describe('GET /creatures', () => {
     findAll.mockRestore();
   });
 });
+
+
+describe('GET /creatures/:id', () => {
+  beforeAll(async () => {
+    await db.sync({ force: true });
+  });
+  it('should return a specific creature by ID', async () => {
+    const creature = await Creature.create({
+      name: 'Smaug',
+      type: 'dragon',
+      color: 'red',
+      location: 'mountains',
+    });
+
+    const response = await request(app).get(`/creatures/${creature.id}`);
+
+    expect(response.status).toBe(200);
+    expect(response.body).toMatchObject({
+      name: 'Smaug',
+      type: 'dragon',
+      color: 'red',
+      location: 'mountains',
+    });
+  });
+
+  it('should return 404 if creature is not found', async () => {
+    const response = await request(app).get('/creatures/123');
+
+    expect(response.status).toBe(404);
+    expect(response.body).toEqual({ message: 'Creature not found' });
+  });
+});

@@ -17,6 +17,22 @@ Create a GET endpoint at /creatures that retrieves all creatures from the databa
 
 
 
+
+
+/*
+You've heard of unicorns, dragons, and griffins, but have you ever wanted to get up close and personal with one? Look no further than our mythical creature database! We've got everything from fiery dragons to majestic unicorns, and with this route, you can retrieve just one specific creature by providing its ID.
+Create a GET endpoint at /creatures/:id that retrieves just one creature from the database and returns a JSON response.
+*/
+// 👇👇👇 YOUR CODE for `GET /creatures/:id`
+
+
+
+
+
+
+
+
+
 // Start the server
 const PORT = process.env.PORT || 3000;
 // Export the app. NOTE: Do not start the server with app.listen() here. We will do that in the test file.
