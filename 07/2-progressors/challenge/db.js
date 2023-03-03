@@ -15,27 +15,27 @@ export const db = new Sequelize({
 
 export const NobleHouse = db.define('noblehouse', {
   id: {
-    type: DataTypes.INTEGER,
+    type: Sequelize.INTEGER,
     primaryKey: true,
     autoIncrement: true,
   },
   name: {
-    type: DataTypes.STRING,
+    type: Sequelize.STRING,
   },
   sigil: {
-    type: DataTypes.STRING,
+    type: Sequelize.STRING,
   },
   words: {
-    type: DataTypes.STRING,
+    type: Sequelize.STRING,
   },
   seat: {
-    type: DataTypes.STRING,
+    type: Sequelize.STRING,
   },
   region: {
-    type: DataTypes.STRING,
+    type: Sequelize.STRING,
   },
   founded: {
-    type: DataTypes.DATEONLY,
+    type: Sequelize.DATEONLY,
   },
 }, {
   timestamps: false,
@@ -43,19 +43,19 @@ export const NobleHouse = db.define('noblehouse', {
 
 export const Guest = db.define('guest', {
     name: {
-      type: DataTypes.STRING,
+      type: Sequelize.STRING,
       allowNull: false
     },
     age: {
-      type: DataTypes.INTEGER,
+      type: Sequelize.INTEGER,
       allowNull: false
     },
     occupation: {
-      type: DataTypes.STRING,
+      type: Sequelize.STRING,
       allowNull: false
     },
     status: {
-      type: DataTypes.ENUM('RSVP', 'Confirmed', 'Attended'),
+      type: Sequelize.ENUM('RSVP', 'Confirmed', 'Attended'),
       allowNull: false
     }
   }, {

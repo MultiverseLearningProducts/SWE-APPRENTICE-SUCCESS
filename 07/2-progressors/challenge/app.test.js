@@ -20,7 +20,7 @@ describe('Royal API', () => {
     });
 
     afterAll(async () => {
-      await db.sequelize.close();
+      await db.close();
     });
 
     it('should return all guests', async () => {
