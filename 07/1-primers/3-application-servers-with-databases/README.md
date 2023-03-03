@@ -27,6 +27,9 @@ app.get('/', async (req, res) => {
 });
 ```
 
+## Challenge 🏆
+In [../challenge/app.js](../challenge/app.js), complete the `GET /creatures` endpoint to pass the tests.
+
 ## #checkoutTheDocs 🔍
 - [Express](https://expressjs.com/)
 - [Sequelize](https://sequelize.org/)

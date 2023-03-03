@@ -42,6 +42,9 @@ We use the req.params object to access the ID parameter from the URL. This objec
 ## 💡 JSON Parsing Middleware
 In the code snippet above, we use the `express.json()` middleware to parse JSON bodies. This middleware is included in Express by default, so we don't need to install it separately.  🚨**Important:** If we don't use this middleware, we _won't be able to access the request body in our routes_.  The `express.json()` middleware must go before any routes that need to access the request body. This is one of the most common mistakes when using Express, and can cause a lot of confusion.  _If you're having trouble accessing the request body, make sure you're using the `express.json()` middleware._
 
+## Challenge 🏆
+In [../challenge/app.js](../challenge/app.js), complete the `GET /creatures/:id` endpoint to pass the tests.
+
 ## #checkoutTheDocs 🔍
 - [Express Route Parameters](https://expressjs.com/en/guide/routing.html#route-parameters)
 

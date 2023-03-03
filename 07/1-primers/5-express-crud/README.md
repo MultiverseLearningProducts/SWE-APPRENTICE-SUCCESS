@@ -12,5 +12,7 @@ Express provides four HTTP methods that correspond to these CRUD operations: `GE
 
 In the next few modules, we'll see how we can use these methods in our `Superhero` example.
 
+## Challenge 🏆
+(no challenges for this topic)
 ## #checkoutTheDocs 🔍
 - [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)

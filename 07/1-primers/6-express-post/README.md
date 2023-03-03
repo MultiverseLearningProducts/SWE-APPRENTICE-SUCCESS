@@ -29,5 +29,7 @@ Here, we've defined a `POST /superheroes` route, which expects a JSON payload in
 
 Now, we can send a `POST` request to the `/superheroes` route with a JSON payload containing the name, superpower, and age of a new superhero, and the route handler will create a new superhero in the database and return it as JSON in the response.
 
+## Challenge 🏆
+In [../challenge/app.js](../challenge/app.js), complete the `POST /creatures` endpoint to pass the tests.
 ## #checkoutTheDocs 🔍
 - [Express app.post() method](http://expressjs.com/en/5x/api.html#app.post.method)
