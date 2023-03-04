@@ -7,13 +7,11 @@ app.use(express.json());
 
 /* 
 Challenge: Implement Basic Auth Middleware
-Create a new Express app that serves as a website for a rock band. The website has a secret page that only authorized users can access.
+Our rock band already has an express app.  The website has a secret page that only authorized users should be able to access. The authorized users are stored in the `users` array.
 
-1. Create an array of objects that contains the following users:
-   a. username: 'rockfan', password: 'ilovebands'
-   b. username: 'groupie', password: 'backstagepass'
-2. Create a basicAuth middleware that checks if the username and password match one of the users in the array. If the credentials don't match, return a 401 Unauthorized status code.
-3. Use the basicAuth middleware to protect a secret endpoint ('/secret') that returns the string 'Welcome to the secret page!'
+Challenge: 
+- Create a basicAuth middleware that checks if the username and password match one of the users in the array. If the credentials don't match, return a 401 Unauthorized status code.
+- You may use the `basic-auth` package (imported above) or write your own middleware.
 
 */
 
@@ -30,11 +28,11 @@ const auth = (req, res, next) => {
 
 
 
-  
+
   // 👆👆👆 YOUR CODE for the `auth` middleware 👆👆👆
 };
 
-// Use the auth middleware to protect a secret endpoint ('/secret')
+// Don't change this route
 app.get('/secret', auth, (req, res) => {
   res.send('Welcome to the secret page!');
 });
