@@ -1,10 +1,11 @@
-# Bonus Round! 🔥## Other GraphQL Topics To Explore
+# Bonus Round! 🔥 Other GraphQL Topics To Explore
 ## 1. Fragments 🔍
 Fragments in GraphQL allow you to define reusable pieces of query syntax that can be included in multiple queries. This can be very useful for reducing duplication and making your queries more modular.
 
 ```js
 import { gql } from 'apollo-server-express';
 
+// define a fragment
 const heroFragment = gql`
   fragment HeroDetails on Hero {
     name
@@ -13,6 +14,7 @@ const heroFragment = gql`
   }
 `;
 
+// use the fragment in a query
 const queryWithFragment = gql`
   query {
     allHeroes {
@@ -25,6 +27,7 @@ const queryWithFragment = gql`
 ```
 ## #checkoutTheDocs 🔍
 - [GraphQL Fragments Docs](https://graphql.org/learn/queries/#fragments)
+
 ## 2. Subscriptions 🔍
 Subscriptions in GraphQL allow you to subscribe to changes in the data on the server. Subscriptions are similar to queries in that they are sent to the server and the server responds with data. However, the key difference is that subscriptions are long-lived requests. This means that the server does not immediately send a response, but instead waits for a change in the data to send a response. This is useful for use cases such as real-time chat applications.
 
@@ -33,6 +36,7 @@ import { gql } from 'apollo-server-express';
 
 const SUBSCRIPTION_CREATED = 'SUBSCRIPTION_CREATED';
 
+// not query, not mutation, but a subscription
 const typeDefs = gql`
   type Subscription {
     heroCreated: Hero!
@@ -49,7 +53,7 @@ const resolvers = {
 
 ```
 ## #checkoutTheDocs 🔍
-- [GraphQL Subscriptions Docs](https://graphql.org/graphql-js/subscriptions/)
+- [GraphQL Subscriptions Docs](https://www.apollographql.com/docs/react/data/subscriptions/)
 
 ## 3. Interfaces 🔍
 Interfaces in GraphQL allow you to define a set of fields that types must include when implementing the interface. This is useful for defining common fields across types. For example, in our Superhero data model, we have a `Hero` type and a `Villain` type. Both types have a `name` and `superpower` field. We can define an interface that both types must implement to ensure that they have these fields.
@@ -195,6 +199,6 @@ const QUERY = gql`
   }
 `;
 ```
-## Introspection### #checkoutTheDocs 🔍
+## #checkoutTheDocs 🔍
 - [GraphQL Introspection Docs](https://graphql.org/learn/introspection/)
 
