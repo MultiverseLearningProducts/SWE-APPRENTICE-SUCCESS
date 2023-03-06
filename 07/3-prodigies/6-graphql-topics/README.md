@@ -1,5 +1,5 @@
 # Bonus Round! 🔥 Other GraphQL Topics To Explore
-## 1. Fragments 🔍
+## 1. Fragments
 Fragments in GraphQL allow you to define reusable pieces of query syntax that can be included in multiple queries. This can be very useful for reducing duplication and making your queries more modular.
 
 ```js
@@ -25,10 +25,10 @@ const queryWithFragment = gql`
 `;
 
 ```
-## #checkoutTheDocs 🔍
+### #checkoutTheDocs 🔍
 - [GraphQL Fragments Docs](https://graphql.org/learn/queries/#fragments)
 
-## 2. Subscriptions 🔍
+## 2. Subscriptions
 Subscriptions in GraphQL allow you to subscribe to changes in the data on the server. Subscriptions are similar to queries in that they are sent to the server and the server responds with data. However, the key difference is that subscriptions are long-lived requests. This means that the server does not immediately send a response, but instead waits for a change in the data to send a response. This is useful for use cases such as real-time chat applications.
 
 ```js
@@ -52,10 +52,10 @@ const resolvers = {
 };
 
 ```
-## #checkoutTheDocs 🔍
+### #checkoutTheDocs 🔍
 - [GraphQL Subscriptions Docs](https://www.apollographql.com/docs/react/data/subscriptions/)
 
-## 3. Interfaces 🔍
+## 3. Interfaces
 Interfaces in GraphQL allow you to define a set of fields that types must include when implementing the interface. This is useful for defining common fields across types. For example, in our Superhero data model, we have a `Hero` type and a `Villain` type. Both types have a `name` and `superpower` field. We can define an interface that both types must implement to ensure that they have these fields.
 
 ```js
@@ -101,9 +101,9 @@ const resolvers = {
 
 ```
 
-## #checkoutTheDocs 🔍
+### #checkoutTheDocs 🔍
 - [GraphQL Interfaces Docs](https://graphql.org/learn/schema/#interfaces)
-## 4. Custom Scalars 🔍
+## 4. Custom Scalars
 Custom scalars in GraphQL allow you to define your own scalar types. This is useful for defining types that are not natively supported by GraphQL. For example, in our Superhero data model, we have a `Hero` type that has a `birthDate` field. The `birthDate` field is a `Date` type, which is not natively supported by GraphQL. We can define a custom scalar type that will allow us to use the `Date` type in our schema.
 
 ```js
@@ -152,10 +152,10 @@ const resolvers = {
 
 ```
 
-## #checkoutTheDocs 🔍
+### #checkoutTheDocs 🔍
 - [GraphQL Custom Scalars Docs](https://graphql.org/learn/schema/#scalar-types)
 
-## 5. Data Loaders 🔍
+## 5. Data Loaders
 Data loaders in GraphQL allow you to batch and cache requests to your data sources. This can be useful for reducing the number of requests to your data sources and improving the performance of your GraphQL API. For example, in our Superhero data model, we have a `User` type that has a `friends` field. The `friends` field is an array of `User` types. If we were to query for a `User` and include the `friends` field, we would end up making a request to our data source for each friend. This can be very inefficient. We can use a data loader to batch these requests and only make a single request to our data source.
 
 ```js
@@ -177,10 +177,10 @@ const user = await userLoader.load(123);
 
 ```
 
-## #checkoutTheDocs 🔍
+### #checkoutTheDocs 🔍
 - [GraphQL Data Loaders Docs](https://github.com/graphql/dataloader#dataloader)
 
-## 6. Introspection 🔍
+## 6. Introspection
 Introspection in GraphQL allows you to query the schema of a GraphQL API at runtime. This can be useful for building tools that generate documentation, testing tools, or other tools that need to interact with a GraphQL API in a dynamic way.
 
 ```js
@@ -199,6 +199,6 @@ const QUERY = gql`
   }
 `;
 ```
-## #checkoutTheDocs 🔍
+### #checkoutTheDocs 🔍
 - [GraphQL Introspection Docs](https://graphql.org/learn/introspection/)
 
