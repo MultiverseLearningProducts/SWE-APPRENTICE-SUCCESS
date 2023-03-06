@@ -53,7 +53,7 @@ const resolvers = {
 
 ```
 ### #checkoutTheDocs 🔍
-- [GraphQL Subscriptions Docs](https://www.apollographql.com/docs/react/data/subscriptions/)
+- [Apollo Subscriptions Docs](https://www.apollographql.com/docs/react/data/subscriptions/)
 
 ## 3. Interfaces
 Interfaces in GraphQL allow you to define a set of fields that types must include when implementing the interface. This is useful for defining common fields across types. For example, in our Superhero data model, we have a `Hero` type and a `Villain` type. Both types have a `name` and `superpower` field. We can define an interface that both types must implement to ensure that they have these fields.
