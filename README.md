@@ -16,4 +16,4 @@ Please note that the content provided in this repository is meant to supplement,
 If you have any questions or feedback, please ask your coach. We hope that this resource helps you achieve success in your SWE course work!
 
 ## Running Tests
-There are automated coding challenges in this repository. You may run them locally, but we will not learn how to use git until Week 3. For now, you can edit your code and run the tests by forking [The Stackblitz](https://stackblitz.com/edit/swe-apprentice-success?file=01%2F1-primers%2F1-variables-constants%2Findex.js)
+There are automated coding challenges in this repository. You may run them locally, but we will not learn how to use git until Week 3. For now, you can edit your code and run the tests by forking [The Stackblitz](https://stackblitz.com/edit/node-fxg5uf?file=package.json,README.md)
