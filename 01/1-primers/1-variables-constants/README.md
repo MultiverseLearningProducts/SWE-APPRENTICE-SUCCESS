@@ -1,7 +1,7 @@
 ![MV Logo](/logo.jpg)
 # Variables and Constants
 
-## Variable Declaration and Assignment:
+## Variable Declaration and Assignment
 
 - Variables are used to store data in a program. They are like containers that hold a value.
 - In order to create a variable, you need to declare it by specifying its name and the data type it will hold. For example:

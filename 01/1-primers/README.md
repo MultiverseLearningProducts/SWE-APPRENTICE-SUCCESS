@@ -5,7 +5,9 @@
 - [Comparison Operators](./3-comparison-operators/README.md)
 - [Logical Operators](./4-logical-operators/README.md)
 - [Conditionals](./5-conditionals/README.md)
-- [Functions](./6-functions/README.md)
-- [Function Parameters](./7-function-parameters/README.md)
-- [Debugging and Errors](./8-debugging-errors/README.md)
+- [Truthy and Falsy Values](./6-truthy-and-falsy/README.md)
+- [Functions](./7-functions/README.md)
+- [Function Parameters](./8-function-parameters/README.md)
+- [Scope](./9-scope/README.md)
+- [Debugging and Errors](./10-debugging-errors/README.md)
 

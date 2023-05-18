@@ -1,5 +1,5 @@
 ![MV Logo](/logo.jpg)
-# Creating Functions with Parameters and Return Values:
+# Creating Functions with Parameters and Return Values
 
 - Functions can also take input, known as parameters, and return output, known as return values.
 - Parameters are specified inside the parentheses of the function definition, and can be passed in when the function is called.

@@ -1,3 +1,5 @@
+![logo](/logo.jpg)
+
 # Custom Hooks
 - React comes with several built-in Hooks (e.g. `useState` and `useEffect`).
 - Often, we want a hook for a specific purpose or we want to reuse logic that we have already written. 

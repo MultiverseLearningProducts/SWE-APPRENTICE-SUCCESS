@@ -1,5 +1,5 @@
 ![MV Logo](/logo.jpg)
-# Declaring and Calling Functions:
+# Declaring and Calling Functions
 
 - Functions are reusable blocks of code that perform a specific task.
 - To create a function, you can use the keyword function followed by the function name and a set of parentheses.

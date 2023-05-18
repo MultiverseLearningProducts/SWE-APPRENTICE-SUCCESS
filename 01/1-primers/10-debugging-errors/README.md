@@ -1,5 +1,5 @@
 ![MV Logo](/logo.jpg)
-# Debugging: Types of Errors:
+# Debugging: Types of Errors
 
 - Debugging is the process of finding and fixing errors in a program.
 - There are several types of errors that can occur in a program:

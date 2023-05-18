@@ -1,5 +1,5 @@
 ![MV Logo](/logo.jpg)
-# Logical Operators:
+# Logical Operators
 
 Logical operators are used to combine two or more comparison operators.
 JavaScript has three logical operators: `&&`, `||`, and `!`.

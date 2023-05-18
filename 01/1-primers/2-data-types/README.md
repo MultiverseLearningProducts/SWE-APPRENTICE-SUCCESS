@@ -1,5 +1,5 @@
 ![MV Logo](/logo.jpg)
-# Primitive Data Types:
+# Primitive Data Types
 
 Primitive data types are the basic data types that a programming language uses to represent a value.
 JavaScript has primitive data types: 
