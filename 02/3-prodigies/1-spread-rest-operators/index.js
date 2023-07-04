@@ -8,14 +8,12 @@ let spreadMoreNumbers;
 
 // 2. Combine the fruits and vegies arrays into the foods array. The foods array should be a 1-dimensional array.
 const fruits = ["🍎", "🍋", "🍇", "🍓", "🍉"];
-const vegies = ["🥦", "🥬", "🥑", "🌶️", "🥒"]
+const vegies = ["🥦", "🥬", "🥑", "🌶️", "🥒"];
 let foods;
 
-
 // 3. An animals array has been created for you. Store the monkey and penguin in their corresponding variables. Store the remaining values in the rest variable.
-const animals = ["🐵", "🐧", "🐔", "🐺", "🦑", "🐙"]
-let monkey, penguin, rest
-
+const animals = ["🐵", "🐧", "🐔", "🐺", "🦑", "🐙"];
+let monkey, penguin, rest;
 
 // 4. Create a function called multiply that accepts any number of number values as arguments. The function will return all those values multiplied together. If no argument is provided, return the number 1.
 /*
@@ -26,12 +24,7 @@ multiply(1, 2, 7); => 14
 multiply() => 1
 */
 
-function multiply() {
-
-
-    
-}
-
+function multiply() {}
 
 // 5. Create a function called fullName that accepts any number of argument strings and returns that person's full name as a single string:
 /*
@@ -42,14 +35,9 @@ fullName("Steven", "Joseph", "Kensington", "IV") => "Steven Joseph Kensington IV
 fullName(); => ""
 */
 
-function fullName(){
+function fullName() {}
 
-
-
-
-}
-
-console.log(fullName("Steven", 'Joseph', "Lance"))
+console.log(fullName("Steven", "Joseph", "Lance"));
 
 // 6. Create a function called findAverage that accepts an object of student names and corresponding score values. findAverage should return the average score rounded to the nearest whole number for any sized object.
 
@@ -58,28 +46,24 @@ findAverage({"Malik": 82, "Mariama": 95}); => 89
 findAverage({"Malik": 82, "Mariama": 95, "Wilmer": 78}); => 85
 */
 
-
 let studentScores = {
-    "Malik": 82,
-    "Mariama": 95,
-    "Wilmer": 78,
-    "Francis": 60,
-    "Laurel": 96,
-    "Dan": 74,
-}
+  Malik: 82,
+  Mariama: 95,
+  Wilmer: 78,
+  Francis: 60,
+  Laurel: 96,
+  Dan: 74,
+};
 
-function findAverage(){
-    
+function findAverage() {}
 
-
-
-}
-
-export default { 
-    spreadMoreNumbers, 
-    foods, 
-    monkey, penguin, rest,
-    multiply,
-    fullName, 
-    findAverage
+export {
+  spreadMoreNumbers,
+  foods,
+  monkey,
+  penguin,
+  rest,
+  multiply,
+  fullName,
+  findAverage,
 };
