@@ -12,7 +12,4 @@ isHot(25) should return `not hot`
 isHot(35) should return `hot`
  */
 
-export default {
-  isFamous,
-  isHot,
-}
+export { isFamous, isHot };

@@ -1,61 +1,60 @@
-import { default as variables } from './index.js';
-const { 
+import {
   favoriteVegetable,
   livingDinosaur,
   favoriteCountry,
   birthYear,
   isCool,
-} = variables;
+} from "./index.js";
 
 // undefined
-describe('`favoriteVegetable` constant', () => {
-  it('should be undefined', () => {
-    expect(variables.favoriteVegetable).toBeUndefined();
+describe("`favoriteVegetable` constant", () => {
+  it("should be undefined", () => {
+    expect(favoriteVegetable).toBeUndefined();
   });
 });
 
 // null
-describe('`livingDinosaur` constant', () => {
-  it('should be null', () => {
-    expect(variables.livingDinosaur).toBeNull();
+describe("`livingDinosaur` constant", () => {
+  it("should be null", () => {
+    expect(livingDinosaur).toBeNull();
   });
 });
 
 // string
-describe('`favoriteCountry` string', () => {
+describe("`favoriteCountry` string", () => {
   // test to confirm variable is defined
-  it('is defined', () => {
-    expect(variables.favoriteCountry).toBeDefined();
+  it("is defined", () => {
+    expect(favoriteCountry).toBeDefined();
   });
 
   // test to confirm data type
-  it('is a string', () => {
-    expect(typeof variables.favoriteCountry).toBe('string');
+  it("is a string", () => {
+    expect(typeof favoriteCountry).toBe("string");
   });
 });
 
 // number
-describe('`birthYear` number', () => {
+describe("`birthYear` number", () => {
   // test to confirm variable is defined
-  it('is defined', () => {
-    expect(variables.birthYear).toBeDefined();
+  it("is defined", () => {
+    expect(birthYear).toBeDefined();
   });
 
   // test to confirm data type
-  it('is a number', () => {
-    expect(typeof variables.birthYear).toBe('number');
+  it("is a number", () => {
+    expect(typeof birthYear).toBe("number");
   });
 });
 
 // boolean
-describe('`isCool` boolean', () => {
+describe("`isCool` boolean", () => {
   // test to confirm variable is defined
-  it('is defined', () => {
-    expect(variables.isCool).toBeDefined();
+  it("is defined", () => {
+    expect(isCool).toBeDefined();
   });
 
   // test to confirm data type
-  it('is a boolean', () => {
-    expect(typeof variables.isCool).toBe('boolean');
+  it("is a boolean", () => {
+    expect(typeof isCool).toBe("boolean");
   });
 });
