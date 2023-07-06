@@ -1,4 +1,3 @@
-
 /* 
 
 In this challenge, you are to create a class BankAccount that represents a bank account. The class should have the following methods:
@@ -34,6 +33,4 @@ try {
 
 */
 
-export class BankAccount {
-
-}
+export default class BankAccount {}

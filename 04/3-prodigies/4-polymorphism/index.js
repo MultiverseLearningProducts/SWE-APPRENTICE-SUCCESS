@@ -12,14 +12,10 @@ Create a base `Animal` class with a makeNoise method that returns the animal's n
 
 */
 
-export class Animal {
-}
+export class Animal {}
 
-export class Pig {
-}
+export class Pig {}
 
-export class Cow {
-}
+export class Cow {}
 
-export class Chicken {
-}
+export class Chicken {}

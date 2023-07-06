@@ -16,13 +16,19 @@ describe("Chuckles class", () => {
   });
 
   it("should be able to add a joke", () => {
-    chuckles.addJoke("Why did the tomato turn red? Because it saw the salad dressing!");
+    chuckles.addJoke(
+      "Why did the tomato turn red? Because it saw the salad dressing!"
+    );
     expect(chuckles.jokes.length).toEqual(1);
   });
 
   it("should be able to return a random joke", () => {
-    chuckles.addJoke("Why did the tomato turn red? Because it saw the salad dressing!");
-    chuckles.addJoke("Why did the scarecrow win an award? Because he was outstanding in his field!");
+    chuckles.addJoke(
+      "Why did the tomato turn red? Because it saw the salad dressing!"
+    );
+    chuckles.addJoke(
+      "Why did the scarecrow win an award? Because he was outstanding in his field!"
+    );
     const joke = chuckles.getRandomJoke();
     expect(chuckles.jokes).toContain(joke);
   });
@@ -34,7 +40,9 @@ describe("Chuckles class", () => {
 
   it("should be able to get the punchline", () => {
     chuckles.setPunchline("Because it was the life of the party!");
-    expect(chuckles.getPunchline()).toEqual("Because it was the life of the party!");
+    expect(chuckles.getPunchline()).toEqual(
+      "Because it was the life of the party!"
+    );
   });
 
   it("should have a static method makeEveryoneLaugh that returns 'LOL'", () => {
@@ -42,12 +50,15 @@ describe("Chuckles class", () => {
   });
 
   it("should have an instance method jokeCount that returns the number of jokes", () => {
-    chuckles.addJoke("Why did the tomato turn red? Because it saw the salad dressing!");
-    chuckles.addJoke("Why did the scarecrow win an award? Because he was outstanding in his field!");
+    chuckles.addJoke(
+      "Why did the tomato turn red? Because it saw the salad dressing!"
+    );
+    chuckles.addJoke(
+      "Why did the scarecrow win an award? Because he was outstanding in his field!"
+    );
     expect(chuckles.jokeCount()).toEqual(2);
   });
 });
-
 
 describe("Party class", () => {
   let leader = new Character("Jane Doe");
@@ -88,6 +99,8 @@ describe("Party class", () => {
   it("adds the leader's name to the static property currentLeaders when a party is created", () => {
     const leader = new Character("Oliver Queen");
     const party = new Party(leader);
-    expect(Party.currentLeaders[Party.currentLeaders.length - 1]).toEqual(leader.name);
+    expect(Party.currentLeaders[Party.currentLeaders.length - 1]).toEqual(
+      leader.name
+    );
   });
 });

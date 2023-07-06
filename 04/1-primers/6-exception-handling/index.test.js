@@ -1,4 +1,4 @@
-import { BankAccount } from './index.js';
+import BankAccount from "./index.js";
 
 describe("BankAccount", () => {
   let account;

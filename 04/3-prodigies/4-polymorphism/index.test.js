@@ -1,4 +1,4 @@
-import { Animal, Pig, Cow, Chicken } from './index.js';
+import { Animal, Pig, Cow, Chicken } from "./index.js";
 
 describe("Animal class", () => {
   let animal;

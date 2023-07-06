@@ -23,11 +23,7 @@ Have fun and may the best pie eater win!
 
 */
 
-export class Contestant {
-
-}
+export class Contestant {}
 
 // hmmm something's missing in this class declaration...
-export class Champion {
-
-}
+export class Champion {}
