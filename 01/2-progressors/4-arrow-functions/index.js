@@ -12,7 +12,4 @@ isWeekend("Monday") should return false
 isWeekend("Sunday") should return true
  */
 
-export default {
-  isTooMuch,
-  isWeekend,
-}
+export { isTooMuch, isWeekend };

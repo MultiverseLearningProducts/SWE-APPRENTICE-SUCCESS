@@ -1,4 +1,3 @@
-
 /* Define a new class called Athlete
     The constructor will take the following arguments and set them as properties of any new instance.
             * @param {string} name 
@@ -17,6 +16,4 @@
 
 */
 
-export class Athlete {
-
-}
+export default class Athlete {}

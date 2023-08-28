@@ -15,6 +15,4 @@
 
 */
 
-export function createLap(lapDistance) {
-
-}
+export default function createLap(lapDistance) {}

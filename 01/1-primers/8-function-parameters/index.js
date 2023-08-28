@@ -1,12 +1,11 @@
 // declare a function called `subtract` that takes two numbers and returns the difference between them
 // example: subtract(5, 2) should return 3
 
-
 // declare a function called `sum` that takes two numbers and returns the sum of them
 // example: sum(1, 2) should return 3
 
 // declare a function called `convert` that takes an integer `minutes` and converts it to seconds.
-// examples: 
+// examples:
 // convert(5) -> 300
 // convert(3) -> 180
 // convert(2) -> 120
@@ -39,23 +38,10 @@
 // max(5, 5, 5) -> 5
 // max(5, 5, 1) -> 5
 
-
 // declare a function called `isEmpty` that takes a string and returns true if the string is empty. Otherwise, returns false.
 // examples:
 // isEmpty("") -> true
 // isEmpty(" ") -> false
 // isEmpty("a") -> false
 
-
-
-
-export default {
-  subtract,
-  sum,
-  convert,
-  addition,
-  concatenate,
-  isEqual,
-  max,
-  isEmpty,
-}
+export { subtract, sum, convert, addition, concatenate, isEqual, max, isEmpty };

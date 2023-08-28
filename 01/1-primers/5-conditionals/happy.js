@@ -4,11 +4,11 @@
 // `true` if the activity is 'dancing' or 'swimming'
 // `false` otherwise.
 
-// Check that your solution works for any `activity` value for the following: 
+// Check that your solution works for any `activity` value for the following:
 // let activity = 'digging holes'
 // let activity = 'dancing'
 
-let activity = 'dancing';
+let activity = "dancing";
 // let activity = 'swimming';
 // let activity = 'digging holes';
 // let activity = 'running 10 miles in the rain';
@@ -17,10 +17,5 @@ let happy;
 
 // YOUR CODE
 
-
-
 // DO NOT EDIT BELOW
-export default {
-  activity,
-  happy,
-};
+export { activity, happy };

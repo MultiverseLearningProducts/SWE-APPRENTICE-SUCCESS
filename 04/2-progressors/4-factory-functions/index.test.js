@@ -1,4 +1,4 @@
-import { createLap } from "./index.js";
+import createLap from "./index.js";
 
 describe("createLap", () => {
   it("should create an instance of Lap with the correct properties", () => {

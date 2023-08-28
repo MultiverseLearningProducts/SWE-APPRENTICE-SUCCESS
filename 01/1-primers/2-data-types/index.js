@@ -1,4 +1,3 @@
-
 // 1. Declare a variable named favoriteVegetable and assign it the value of your favorite vegetable as a string. (Psst: No one likes vegetables, so make it `undefined`!)
 
 // 2. Declare a variable named livingDinosaur and assign it the value of `null`.  Of course, there are no living dinosaurs anymore!
@@ -9,9 +8,8 @@
 
 // 5. Declare a variable named isCool and assign it the value of `true` or `false`. But I'm sure it will be `true`!
 
-
 // DO NOT EDIT BELOW
-export default { 
+export {
   favoriteVegetable,
   livingDinosaur,
   favoriteCountry,

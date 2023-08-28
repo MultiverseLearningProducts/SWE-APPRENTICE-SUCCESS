@@ -10,7 +10,7 @@
   
   */
 
-// Given the `totalPrice` and `amtInWallet`, set `balance` to 
+// Given the `totalPrice` and `amtInWallet`, set `balance` to
 // the amount of money left in the wallet after checkout.
 
 const totalPrice = 25;
@@ -20,11 +20,5 @@ let amtInWallet = 20;
 // modify this variable
 let balance = null;
 
-
-
 // DO NOT EDIT BELOW
-export default {
-  totalPrice,
-  amtInWallet,
-  balance,
-};
+export { totalPrice, amtInWallet, balance };

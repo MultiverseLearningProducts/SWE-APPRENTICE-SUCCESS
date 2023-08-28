@@ -8,7 +8,6 @@
   strictlyEqual('billy', 'bill') // false
  */
 
-
 // define a function expression, `looselyEqual` that takes two parameters and checks if they are loosely equal
 /*
   Examples:
@@ -29,7 +28,6 @@
   isAdult(16) // false
   */
 
-
 // define a function expression, `isOdd` that takes in a number and returns true if it is odd, and false otherwise.
 /* 
   Examples:
@@ -39,7 +37,6 @@
   isOdd(4) // false
   // etc.
 */
-
 
 // define a function expression, `isPositive` that takes in a number and returns true if it is positive, and false otherwise.
 /*
@@ -58,12 +55,4 @@
   isLeapYear(2400) // true
   */
 
-
-export default {
-  strictlyEqual,
-  looselyEqual,
-  isAdult,
-  isOdd,
-  isPositive,
-  isLeapYear,
-}
+export { strictlyEqual, looselyEqual, isAdult, isOdd, isPositive, isLeapYear };
