@@ -37,7 +37,7 @@ fullName(); => ""
 
 function fullName() {}
 
-console.log(fullName("Steven", "Joseph", "Lance"));
+
 
 // 6. Create a function called findAverage that accepts an object of student names and corresponding score values. findAverage should return the average score rounded to the nearest whole number for any sized object.
 
