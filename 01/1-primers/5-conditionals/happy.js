@@ -15,7 +15,12 @@ let activity = "dancing";
 
 let happy;
 
-// YOUR CODE
+// YOUR CODE HERE
+
+
+
+
+
 
 // DO NOT EDIT BELOW
 export { activity, happy };

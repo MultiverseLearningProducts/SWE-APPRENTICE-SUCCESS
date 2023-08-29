@@ -12,7 +12,13 @@ truthyOrFalsy("") ==> "This is a falsy value"
 truthyOrFalsy("Hello World") ==> "This is a truthy value"
 */
 
-function truthyOrFalsy(val) {}
+function truthyOrFalsy(val) {
+    // YOUR CODE
+
+
+
+
+}
 
 // 3. Create a function called checkAge that accepts a number as an argument. Output the following based on the age provided: (a) if age is greater than or equal to 18 return "you are an adult", (b) if the age is less than 18, return "you are a minor", if the age is not provided return "Age is not provided".
 /*
@@ -21,7 +27,14 @@ checkAge(20) => "You are an adult"
 checkAge(15) => "You are a minor"
 checkAge(null) => "Age is not provided"
 */
-function checkAge(age) {}
+function checkAge(age) {
+    // YOUR CODE
+
+
+
+
+    
+}
 
 // DO NOT EDIT BELOW
 export { truthy, falsy, truthyOrFalsy, checkAge };

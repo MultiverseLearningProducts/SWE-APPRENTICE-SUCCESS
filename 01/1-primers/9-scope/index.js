@@ -18,15 +18,18 @@ function updateCity(city) {
   let myCity = city;
 }
 
-// 2. Create a global variable called currentSum that contains an initial value of zero. Then create a function called incrementSum that increments the currentSum by 1 every time that it is run.
+// 3. Create a global variable called currentSum that contains an initial value of zero. Next, create a function called `incrementSum` that increments the currentSum by 1 every time that it is run.
 /*
 Example
 incrementSum()
 incrementSum()
 incrementSum()
 console.log(currentSum) // Outputs the value 3
-
 */
+
+
+
+
 
 // DO NOT EDIT BELOW
 updateCity("New York");

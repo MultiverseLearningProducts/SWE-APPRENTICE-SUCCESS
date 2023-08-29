@@ -21,15 +21,15 @@ It's important to note that the variables declared within the IIFE will not be a
 
 However, we can manipulate variables that were declared outside of the function.
   
-    ```js
-    let name = 'Lydia';
-    console.log(name); // Lydia
-    (function() {
-      name = 'Sarah';
-      console.log(name);
-    })(); // Sarah
-    console.log(name); // Sarah
-    ```
+```js
+let name = 'Lydia';
+console.log(name); // Lydia
+(function() {
+  name = 'Sarah';
+  console.log(name);
+})(); // Sarah
+console.log(name); // Sarah
+```
 
 ## checkoutTheDocs 🔍
 - [MDN: IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE)

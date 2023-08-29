@@ -1,4 +1,4 @@
-import { myName, currentYear } from "./index.js";
+import { myName, currentYear, favoriteNumber } from "./index.js";
 
 describe("myName", () => {
   it("should return a string", () => {
@@ -19,5 +19,11 @@ describe("currentYear", () => {
     const currentDate = new Date();
     const thisYear = currentDate.getFullYear();
     expect(currentYear()).toBe(thisYear);
+  });
+});
+
+describe("favoriteNumber", () => {
+  it("should be a number", () => {
+    expect(typeof favoriteNumber()).toBe("number");
   });
 });
