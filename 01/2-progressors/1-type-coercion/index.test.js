@@ -54,7 +54,7 @@ describe("expression type coercion tests", () => {
   });
 });
 
-describe("validateIt tests", () => {
+describe("separateTypes tests", () => {
   test("given ['a', 1, 2, false, 'b']", function () {
     expect(separateTypes(["a", 1, 2, false, "b"])).toEqual({
       number: [1, 2],
