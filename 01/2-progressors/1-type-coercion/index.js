@@ -9,9 +9,6 @@ sumTypeOf(true, 1); ==> 'number'
 
 function sumTypeOf(a, b) {
   // Write your code here
-
-
-
 }
 
 // 2. Complete the function validateIt. The function accepts two parameters: variable and type and checks if type of variable is matching type. Return true if types match or false if not.
@@ -22,10 +19,6 @@ validateIt("42", 'number'); ==> false
 
 function validateIt(variable, type) {
   // Write your code here
-
-
-
-
 }
 
 // 3. PREDICT THE OUTPUT: Four expressions (expression1, expression2, expression3, and expression4) have been provided. Set the corresponding answer variable to be the expected output. Do NOT simply set the expression equal to the variable.
@@ -60,15 +53,10 @@ Expected output is:
 
 */
 
-function separateTypes(input) {
-
-
-
-
-}
+function separateTypes(input) {}
 
 // DO NOT EDIT BELOW THIS LINE
-export default {
+export {
   sumTypeOf,
   validateIt,
   separateTypes,
