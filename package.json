@@ -5,15 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "test:nowatch",
-    "test:nowatch": "node --experimental-vm-modules ./node_modules/.bin/jest --verbose",
-    "test": "node --experimental-vm-modules ./node_modules/.bin/jest --watch-all --verbose",
-    "test:1-": "node --experimental-vm-modules ./node_modules/.bin/jest 1- --watch-all --verbose",
-    "test:w1": "node --experimental-vm-modules ./node_modules/.bin/jest 01 --watch-all --verbose",
-    "test:w1:primers": "node --experimental-vm-modules ./node_modules/.bin/jest 01/1-primers --watch-all --verbose",
-    "test:w1:progressors": "node --experimental-vm-modules ./node_modules/.bin/jest 01/2-progressors --watch-all --verbose",
-    "test:w1:prodigies": "node --experimental-vm-modules ./node_modules/.bin/jest 01/3-prodigies --watch-all --verbose",
-    "test:2-": "node --experimental-vm-modules ./node_modules/.bin/jest 2- --watch-all --verbose",
-    "test:3-": "node --experimental-vm-modules ./node_modules/.bin/jest 3- --watch-all --verbose"
+    "test:nowatch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --verbose",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch-all --verbose",
+    "test:1-": "node --experimental-vm-modules node_modules/jest/bin/jest.js 1- --watch-all --verbose",
+    "test:w1": "node --experimental-vm-modules node_modules/jest/bin/jest.js 01 --watch-all --verbose",
+    "test:w1:primers": "node --experimental-vm-modules node_modules/jest/bin/jest.js 01/1-primers --watch-all --verbose",
+    "test:w1:progressors": "node --experimental-vm-modules node_modules/jest/bin/jest.js 01/2-progressors --watch-all --verbose",
+    "test:w1:prodigies": "node --experimental-vm-modules node_modules/jest/bin/jest.js 01/3-prodigies --watch-all --verbose",
+    "test:2-": "node --experimental-vm-modules node_modules/jest/bin/jest.js 2- --watch-all --verbose",
+    "test:3-": "node --experimental-vm-modules node_modules/jest/bin/jest.js 3- --watch-all --verbose"
   },
   "license": "LicenseRef-LICENSE",
   "repository": {
