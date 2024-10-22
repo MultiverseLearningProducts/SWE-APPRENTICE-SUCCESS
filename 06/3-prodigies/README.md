@@ -1,1 +1,1 @@
-# Week 7 - Prodigies
+# Week 6 - Prodigies

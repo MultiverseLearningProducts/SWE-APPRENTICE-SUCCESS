@@ -1,1 +1,1 @@
-# Week 7 - Progressors
+# Week 6 - Progressors
