@@ -1,0 +1,12 @@
+# Week 6 - Primers
+- [Web Servers](./1-web-servers/README.md)
+- [Application Servers](./2-application-servers/README.md)
+- [Application Servers with Databases](./3-application-servers-with-databases/README.md)
+- [Route Parameters](./4-route-parameters/README.md)
+- [Express CRUD](./5-express-crud/README.md)
+  - GET (covered in [Application Servers with Databases](./3-application-servers-with-databases/README.md) above.)
+  - [POST](./6-express-post/README.md)
+  - [DELETE](./7-express-delete/README.md)
+  - [PUT](./8-express-put/README.md)
+- [Express Middleware Basics](./9-express-middleware/README.md)
+- [Express Routers](./10-express-routers/README.md)
