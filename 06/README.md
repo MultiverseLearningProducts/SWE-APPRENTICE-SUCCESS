@@ -1,4 +1,4 @@
-# Week 7 Apprentice Success
+# Week 6 Apprentice Success
 
 ## Level 1 - Primers
 - [Web Servers](./1-primers/1-web-servers/README.md)
