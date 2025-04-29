@@ -1,4 +1,4 @@
-# Week 8 Apprentice Success
+# Week 7 Apprentice Success
 
 ## [Level 1 - Primers](./1-primers/README.md)
 - [React Setup](./1-primers/1-React-Setup/README.md)

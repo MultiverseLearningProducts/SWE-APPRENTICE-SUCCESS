@@ -1,1 +1,11 @@
 # Week 6 - Progressors
+- [.then() and .catch()](./1-then-catch/README.md)
+- [Writing Promises](./2-writing-promises/README.md)
+- [SQL SELECT](./3-sql-select/README.md)
+- [SQL comparison operators (Like, In, =, >, <)](./4-sql-comparison-operators/README.md)
+- [SQL JOIN](./5-sql-join/README.md)
+- [SQL ORDER BY and LIMIT](./6-sql-order-by-limit/README.md)
+- [SQL INSERT](./7-sql-insert/README.md)
+- [SQL UPDATE](./8-sql-update/README.md)
+- [Sequelize class methods](./9-sequelize-class-methods/README.md)
+- [Sequelize instance methods](./10-sequelize-instance-methods/README.md)

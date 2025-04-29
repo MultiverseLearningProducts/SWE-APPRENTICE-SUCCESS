@@ -1,4 +1,4 @@
-# Week 5 - Prodigies
+# Week 4 - Prodigies
 
 - [Static Functions and Properties](./1-static-functions-properties/README.md)
 - [Inheritance and Encapsulation](./2-inheritance-encapsulation/README.md)
